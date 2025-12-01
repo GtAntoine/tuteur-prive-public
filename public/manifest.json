@@ -1,0 +1,131 @@
+{
+  "name": "Tuteur Privé",
+  "short_name": "Tuteur Privé",
+  "description": "Ton assistant d'apprentissage intelligent",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#4F46E5",
+  "theme_color": "#4F46E5",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/images/icons/favicon-16x16.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/icons/favicon-32x32.png", 
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/icons/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/images/icons/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/images/splash/android/drawable-xxxhdpi.png",
+      "sizes": "1280x1920",
+      "type": "image/png",
+      "platform": "narrow",
+      "label": "Tuteur Privé sur smartphone"
+    },
+    {
+      "src": "/images/splash/android/drawable-land-xxxhdpi.png", 
+      "sizes": "1920x1280",
+      "type": "image/png",
+      "platform": "wide",
+      "label": "Tuteur Privé sur tablette"
+    }
+  ],
+  "splash_pages": [
+    {
+      "name": "phone_portrait",
+      "src": "/images/splash/android/drawable-xxxhdpi.png",
+      "density": "xxxhdpi"
+    },
+    {
+      "name": "phone_portrait",
+      "src": "/images/splash/android/drawable-xxhdpi.png",
+      "density": "xxhdpi"
+    },
+    {
+      "name": "phone_portrait", 
+      "src": "/images/splash/android/drawable-xhdpi.png",
+      "density": "xhdpi"
+    },
+    {
+      "name": "phone_portrait",
+      "src": "/images/splash/android/drawable-hdpi.png",
+      "density": "hdpi"
+    },
+    {
+      "name": "phone_portrait",
+      "src": "/images/splash/android/drawable-mdpi.png", 
+      "density": "mdpi"
+    },
+    {
+      "name": "phone_portrait",
+      "src": "/images/splash/android/drawable-ldpi.png",
+      "density": "ldpi"
+    },
+    {
+      "name": "tablet_landscape",
+      "src": "/images/splash/android/drawable-land-xxxhdpi.png",
+      "density": "land-xxxhdpi"
+    },
+    {
+      "name": "tablet_landscape", 
+      "src": "/images/splash/android/drawable-land-xxhdpi.png",
+      "density": "land-xxhdpi"
+    },
+    {
+      "name": "tablet_landscape",
+      "src": "/images/splash/android/drawable-land-xhdpi.png",
+      "density": "land-xhdpi"
+    },
+    {
+      "name": "tablet_landscape",
+      "src": "/images/splash/android/drawable-land-hdpi.png",
+      "density": "land-hdpi"
+    },
+    {
+      "name": "tablet_landscape",
+      "src": "/images/splash/android/drawable-land-mdpi.png",
+      "density": "land-mdpi"
+    },
+    {
+      "name": "tablet_landscape",
+      "src": "/images/splash/android/drawable-land-ldpi.png",
+      "density": "land-ldpi"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Nouvelle leçon",
+      "short_name": "Leçon",
+      "description": "Créer une nouvelle leçon",
+      "url": "/lesson",
+      "icons": [{ "src": "/images/icons/android-chrome-192x192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Correction",
+      "short_name": "Correction", 
+      "description": "Corriger des exercices",
+      "url": "/correction",
+      "icons": [{ "src": "/images/icons/android-chrome-192x192.png", "sizes": "192x192" }]
+    }
+  ],
+  "related_applications": [],
+  "prefer_related_applications": false,
+  "categories": ["education", "productivity"]
+}

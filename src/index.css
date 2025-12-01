@@ -1,0 +1,191 @@
+/* Base Tailwind */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Variables globales */
+:root {
+  --bg-primary: #f0f7ff;
+  --neu-shadow-dark: #c4c8d0;
+  --neu-shadow-light: #ffffff;
+}
+
+/* Styles de base */
+body {
+  background: var(--bg-primary);
+  font-family: 'Nunito', sans-serif;
+}
+
+/* Animations */
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+@keyframes wiggle {
+  0%, 100% { transform: rotate(0deg); }
+  25% { transform: rotate(-5deg); }
+  75% { transform: rotate(5deg); }
+}
+
+@keyframes pop {
+  0% { transform: scale(0.8); opacity: 0; }
+  50% { transform: scale(1.1); }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+@keyframes slide-in {
+  0% { transform: translateX(-100%); opacity: 0; }
+  100% { transform: translateX(0); opacity: 1; }
+}
+
+@keyframes slide-down {
+  from { transform: translateY(-100%); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0) rotate(0deg); }
+  25% { transform: translateY(-5px) rotate(2deg); }
+  75% { transform: translateY(5px) rotate(-2deg); }
+}
+
+@keyframes shimmer {
+  0% { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+
+@keyframes dot {
+  0%, 20% { transform: translateY(0); }
+  40% { transform: translateY(-4px); }
+  60% { transform: translateY(0); }
+  100% { transform: translateY(0); }
+}
+
+@keyframes scroll-down {
+  0% { transform: translateY(0); opacity: 0; }
+  30% { opacity: 1; }
+  60% { opacity: 1; }
+  100% { transform: translateY(24px); opacity: 0; }
+}
+
+@keyframes pop-spin {
+  0% { transform: scale(0) rotate(-180deg); opacity: 0; }
+  100% { transform: scale(1) rotate(0); opacity: 1; }
+}
+
+@keyframes celebrate {
+  0% { transform: scale(0.5) rotate(-10deg); opacity: 0; }
+  50% { transform: scale(1.2) rotate(5deg); }
+  100% { transform: scale(1) rotate(0); opacity: 1; }
+}
+
+/* Classes d'animation */
+.animate-bounce-slow { animation: bounce 2s ease-in-out infinite; }
+.animate-bounce-slow-4 { animation: bounce 4s ease-in-out infinite; }
+.animate-bounce-slow-5 { animation: bounce 5s ease-in-out infinite; }
+.animate-bounce-slow-6 { animation: bounce 6s ease-in-out infinite; }
+.animate-wiggle { animation: wiggle 1s ease-in-out infinite; }
+.animate-pop { animation: pop 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55); }
+.animate-slide { animation: slide-in 0.5s ease-out; }
+.animate-slide-down { animation: slide-down 0.3s ease-out forwards; }
+.animate-float { animation: float 3s ease-in-out infinite; }
+.animate-float-slow-4 { animation: float 4s ease-in-out infinite; }
+.animate-float-slow-5 { animation: float 5s ease-in-out infinite; }
+.animate-float-slow-6 { animation: float 6s ease-in-out infinite; }
+.animate-shimmer { animation: shimmer 2s linear infinite; }
+.animate-dot-1 { animation: dot 1.5s infinite; }
+.animate-dot-2 { animation: dot 1.5s infinite 0.2s; }
+.animate-dot-3 { animation: dot 1.5s infinite 0.4s; }
+.animate-scroll-down { animation: scroll-down 2s ease-in-out infinite; }
+.animate-pop-spin { animation: pop-spin 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55); }
+.animate-celebrate { animation: celebrate 0.5s cubic-bezier(0.4, 0, 0.2, 1); }
+
+/* Composants */
+.neu-button {
+  @apply relative overflow-hidden transition-all duration-300;
+  border-radius: 24px;
+}
+
+.neu-button:hover {
+  @apply transform scale-105;
+  filter: brightness(1.05);
+}
+
+.neu-button:active {
+  @apply transform scale-95;
+}
+
+.card-shadow {
+  box-shadow: 0 8px 24px rgba(149, 157, 165, 0.2);
+  border-radius: 24px;
+}
+
+/* Upload */
+.upload-initial {
+  transition: all 0.3s ease-in-out;
+}
+
+.upload-compact {
+  transform: scale(0.8);
+  opacity: 0.8;
+}
+
+.upload-compact .upload-text {
+  height: 0;
+  opacity: 0;
+  margin: 0;
+}
+
+.upload-compact .upload-icon {
+  transform: scale(0.7);
+}
+
+/* Navigation et onglets */
+.tab-button {
+  @apply transition-all duration-300 transform;
+}
+
+.tab-button:hover {
+  @apply scale-105;
+}
+
+.tab-button:active {
+  @apply scale-95;
+}
+
+.tab-content {
+  @apply transition-all duration-300;
+  animation: fade-slide-up 0.3s ease-out;
+}
+
+/* Utilitaires */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* Scroll snap */
+.snap-x {
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+}
+
+.snap-center {
+  scroll-snap-align: center;
+}
+
+/* Rotation gradient */
+.rotate-gradient {
+  animation: spin 4s linear infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}

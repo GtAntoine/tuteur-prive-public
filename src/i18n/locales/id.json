@@ -1,0 +1,335 @@
+{
+  "landing": {
+    "hero": {
+      "title": "Tutor Pribadi",
+      "subtitle": "Tutor pribadi Anda untuk belajar!",
+      "cta": "Mulai Sekarang",
+      "login": "Masuk",
+      "signup": "Daftar"
+    },
+    "features": {
+      "exercises": {
+        "title": "Latihan Personal",
+        "description": "Latihan kosakata dan pemahaman yang disesuaikan dengan tingkat dan pelajaran Anda"
+      },
+      "help": {
+        "title": "Bantuan Langkah demi Langkah",
+        "description": "Bantuan terpandu untuk menyelesaikan latihan Anda tanpa memiliki solusi langsung"
+      },
+      "correction": {
+        "title": "Koreksi Cerdas",
+        "description": "Koreksi terperinci dengan penjelasan yang disesuaikan dengan tingkat Anda"
+      },
+      "anticheat": {
+        "title": "Anti-Curang",
+        "description": "Sistem yang dirancang untuk membantu Anda belajar, bukan untuk curang"
+      }
+    },
+    "testimonials": {
+      "title": "Apa kata pengguna kami",
+      "testimonial1": {
+        "text": "Daphnée menunda-nunda belajar pelajarannya dan dengan Tutor Pribadi, selesai dalam lima belas menit.",
+        "author": "Isabelle",
+        "role": "Nenek Daphnée"
+      },
+      "testimonial2": {
+        "text": "Ini hebat. Ini luar biasa. Ini menakjubkan.",
+        "author": "Daphnée",
+        "role": "Siswa Kelas 5"
+      }
+    },
+    "footer": {
+      "about": {
+        "title": "Tutor Pribadi",
+        "description": "Asisten pembelajaran cerdas Anda yang membantu Anda berkembang sesuai kecepatan Anda sendiri."
+      },
+      "commitment": {
+        "title": "Komitmen",
+        "items": {
+          "data": "Perlindungan data",
+          "security": "Keamanan yang ditingkatkan",
+          "privacy": "Kerahasiaan terjamin"
+        }
+      },
+      "links": {
+        "title": "Tautan berguna",
+        "login": "Masuk",
+        "signup": "Daftar",
+        "faq": "FAQ"
+      },
+      "legal": {
+        "title": "Informasi hukum",
+        "terms": "Ketentuan penggunaan",
+        "privacy": "Ketentuan penjualan"
+      },
+      "madeWith": "Dibuat dengan cinta di Prancis",
+      "copyright": "© 2024 Tutor Pribadi. Semua hak dilindungi."
+    }
+  },
+  "settings": {
+    "title": "Pengaturan",
+    "language": "Bahasa",
+    "languages": {
+      "fr": "Prancis",
+      "en": "Inggris",
+      "id": "Indonesia"
+    }
+  },
+  "auth": {
+    "login": {
+      "title": "Masuk",
+      "email": "Email",
+      "password": "Kata Sandi",
+      "submit": "Masuk",
+      "loading": "Sedang masuk...",
+      "noAccount": "Belum punya akun? Daftar",
+      "forgotPassword": "Lupa kata sandi?"
+    },
+    "register": {
+      "title": "Buat akun",
+      "email": "Email",
+      "password": "Kata Sandi",
+      "submit": "Buat akun saya",
+      "loading": "Membuat akun...",
+      "hasAccount": "Sudah punya akun? Masuk"
+    },
+    "resetPassword": {
+      "title": "Lupa kata sandi?",
+      "email": "Email",
+      "submit": "Atur ulang kata sandi",
+      "loading": "Mengirim...",
+      "backToLogin": "Kembali ke masuk",
+      "success": {
+        "title": "Email terkirim!",
+        "message": "Jika akun ada dengan alamat email ini, Anda akan menerima tautan untuk mengatur ulang kata sandi.",
+        "action": "Kembali ke masuk"
+      }
+    },
+    "updatePassword": {
+      "title": "Kata sandi baru",
+      "newPassword": "Kata sandi baru",
+      "confirmPassword": "Konfirmasi kata sandi",
+      "submit": "Perbarui kata sandi",
+      "loading": "Memperbarui...",
+      "success": "Kata sandi Anda telah berhasil diperbarui"
+    },
+    "errors": {
+      "invalidCredentials": "Email atau kata sandi tidak valid",
+      "emailExists": "Akun sudah ada dengan email ini",
+      "passwordMismatch": "Kata sandi tidak cocok",
+      "generic": "Terjadi kesalahan. Silakan coba lagi."
+    }
+  },
+  "profile": {
+    "create": {
+      "title": "Buat Profil",
+      "back": "Kembali",
+      "name": "Nama Depan",
+      "grade": "Kelas",
+      "avatar": "Avatar",
+      "avatarColor": "Warna Latar Avatar",
+      "submit": "Buat Profil"
+    },
+    "select": {
+      "title": "Siapa yang ingin belajar?",
+      "addProfile": "Tambah Profil",
+      "settings": "Pengaturan"
+    },
+    "edit": {
+      "title": "Edit Profil Saya",
+      "back": "Kembali",
+      "submit": "Simpan Perubahan",
+      "loading": "Memuat..."
+    }
+  },
+  "modes": {
+    "title": "Pilih mode",
+    "lesson": {
+      "title": "Pelajari pelajaran Anda",
+      "description": "Tunjukkan pelajaran Anda dan saya akan membuat latihan yang dipersonalisasi!",
+      "loading": "Membuat pelajaran",
+      "newLesson": "Pelajaran baru"
+    },
+    "guided": {
+      "title": "Bantuan langkah demi langkah",
+      "description": "Saya membantu Anda menyelesaikan PR!",
+      "loading": "Menganalisis latihan",
+      "newExercise": "Latihan baru"
+    },
+    "correction": {
+      "title": "Periksa jawaban saya",
+      "description": "Saya mengoreksi pekerjaan Anda!",
+      "loading": "Mengoreksi latihan",
+      "newCorrection": "Koreksi baru"
+    },
+    "community": {
+      "title": "Komunitas",
+      "description": "Temukan dan bagikan dengan komunitas!",
+      "loading": "Memuat komunitas"
+    }
+  },
+  "analysis": {
+    "loading": {
+      "title": "Analisis sedang berlangsung",
+      "description": "Harap tunggu saat pemrosesan",
+      "timeEstimate": "Operasi ini dapat memakan waktu hingga {seconds} detik",
+      "multipleFiles": "({count} gambar × 30 detik)"
+    },
+    "error": {
+      "title": "Terjadi kesalahan",
+      "retry": "Coba lagi dengan gambar yang sama",
+      "restart": "Mulai ulang",
+      "noTokens": "Anda tidak memiliki token tersisa. Kembali besok untuk mendapatkan yang baru."
+    },
+    "tokens": {
+      "remaining": "{count} token | {count} token",
+      "daily": "2 token diberikan setiap hari"
+    }
+  },
+  "history": {
+    "title": "Riwayat Saya",
+    "empty": {
+      "title": "Tidak ada riwayat tersedia",
+      "message": "Analisis Anda akan muncul di sini"
+    },
+    "filters": {
+      "title": "Filter",
+      "subject": "Mata Pelajaran",
+      "type": "Tipe"
+    },
+    "types": {
+      "lesson": "Pelajaran",
+      "correction": "Koreksi",
+      "guided": "Bantuan Terpandu"
+    },
+    "detail": {
+      "back": "Kembali ke riwayat",
+      "share": "Bagikan",
+      "report": "Laporkan",
+      "add": "Tambahkan",
+      "saving": "Menyimpan..."
+    }
+  },
+  "subjects": {
+    "FRENCH": "Bahasa Prancis",
+    "MATH": "Matematika",
+    "HISTORY_GEO": "Sejarah - Geografi",
+    "ENGLISH": "Bahasa Inggris",
+    "EMC": "Pendidikan Moral dan Kewarganegaraan",
+    "SCIENCE": "Sains dan Teknologi",
+    "SVT": "Ilmu Kehidupan dan Bumi",
+    "PHYSIQUE_CHIMIE": "Fisika-Kimia",
+    "TECHNOLOGIE": "Teknologi"
+  },
+  "common": {
+    "back": "Kembali"
+  },
+  "lesson": {
+    "tabs": {
+      "summary": "Ringkasan",
+      "vocabulary": "Kosakata",
+      "vocabularyQuiz": "Kuis Kosakata",
+      "quiz": "Kuis",
+      "questions": "Pertanyaan"
+    },
+    "nextButton": "Lanjutkan",
+    "completeButton": "Selesaikan pelajaran",
+    "summary": {
+      "title": "Ringkasan",
+      "difficulty": {
+        "easy": "mudah",
+        "medium": "sedang",
+        "hard": "sulit"
+      },
+      "keyConcepts": "Konsep kunci:"
+    },
+    "vocabulary": {
+      "title": "Kosakata untuk diingat"
+    },
+    "quiz": {
+      "question": "Pertanyaan {number}",
+      "resetQuiz": "Atur ulang kuis",
+      "score": {
+        "title": "Skor akhir: {score}/{total}",
+        "excellent": "Luar biasa! Pertahankan! 🌟",
+        "good": "Sangat bagus! Anda di jalur yang benar! 👏",
+        "average": "Lumayan! Terus berusaha! 💪",
+        "needsWork": "Terus bekerja, Anda akan berhasil! 🎯"
+      }
+    },
+    "questions": {
+      "title": "Pertanyaan pemahaman",
+      "writeAnswer": "Tulis jawaban Anda di sini...",
+      "showHint": "Tampilkan petunjuk",
+      "hideHint": "Sembunyikan petunjuk",
+      "validate": "Validasi",
+      "validating": "Memvalidasi...",
+      "resetQuestions": "Atur ulang pertanyaan"
+    }
+  },
+  "stats": {
+    "title": "Statistik Saya",
+    "totalScore": {
+      "title": "Skor Total",
+      "pointsExplanation": "Kuis: 1 poin • Pertanyaan: 3 poin",
+      "points": "poin"
+    },
+    "overview": {
+      "lessonsStudied": "Pelajaran dipelajari",
+      "totalTime": "Total waktu",
+      "successRate": "Tingkat keberhasilan",
+      "currentStreak": "Rangkaian saat ini",
+      "minutes": "menit",
+      "days": "h"
+    },
+    "subjectProgress": {
+      "title": "Kemajuan per mata pelajaran"
+    },
+    "weeklyActivity": {
+      "title": "Aktivitas mingguan",
+      "days": ["Min", "Sen", "Sel", "Rab", "Kam", "Jum", "Sab"]
+    },
+    "learningStreak": {
+      "title": "Rangkaian belajar",
+      "consecutiveDays": "hari berturut-turut"
+    },
+    "achievements": {
+      "title": "Pencapaian terbuka",
+      "firstLesson": {
+        "title": "Pelajaran pertama",
+        "description": "Anda telah mempelajari pelajaran pertama Anda"
+      },
+      "perfectScore": {
+        "title": "Skor sempurna",
+        "description": "100% jawaban benar pada kuis"
+      },
+      "streak3": {
+        "title": "Rangkaian 3 hari",
+        "description": "3 hari berturut-turut belajar"
+      },
+      "subjects5": {
+        "title": "Serba bisa",
+        "description": "Mempelajari 5 mata pelajaran berbeda"
+      }
+    }
+  },
+  "upload": {
+    "dropHere": "Jatuhkan file Anda di sini",
+    "takePhotoOrSelect": "Ambil foto {type} Anda atau pilih file",
+    "addMore": "Tambahkan dokumen lain",
+    "timeEstimate": "Analisis dapat memakan waktu hingga {seconds} detik",
+    "multipleFiles": " ({count} gambar × 30 detik)",
+    "lesson": {
+      "title": "Unggah dokumen kursus Anda",
+      "type": "dokumen"
+    },
+    "guided": {
+      "title": "Unggah latihan Anda untuk mendapatkan bantuan",
+      "type": "latihan"
+    },
+    "correction": {
+      "title": "Unggah latihan Anda untuk dikoreksi",
+      "type": "latihan"
+    }
+  }
+}

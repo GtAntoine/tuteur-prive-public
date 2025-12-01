@@ -1,0 +1,335 @@
+{
+  "landing": {
+    "hero": {
+      "title": "Tuteur Privé",
+      "subtitle": "Ton tuteur personnalisé pour apprendre !",
+      "cta": "Commencer maintenant",
+      "login": "Se connecter",
+      "signup": "S'inscrire"
+    },
+    "features": {
+      "exercises": {
+        "title": "Exercices Personnalisés",
+        "description": "Des exercices de vocabulaire et de compréhension adaptés à ton niveau et à ta leçon"
+      },
+      "help": {
+        "title": "Aide Pas à Pas",
+        "description": "Une aide guidée pour résoudre tes exercices sans avoir la solution directe"
+      },
+      "correction": {
+        "title": "Correction Intelligente",
+        "description": "Des corrections détaillées avec des explications adaptées à ton niveau"
+      },
+      "anticheat": {
+        "title": "Anti-Triche",
+        "description": "Un système conçu pour t'aider à apprendre, pas pour tricher"
+      }
+    },
+    "testimonials": {
+      "title": "Ce que disent nos utilisateurs",
+      "testimonial1": {
+        "text": "Daphnée faisait trainer l'apprentissage de sa leçon et avec Tuteur Privé, celle-ci a été faite au bout d'un quart d'heure.",
+        "author": "Isabelle",
+        "role": "Grand-mère de Daphnée"
+      },
+      "testimonial2": {
+        "text": "C'est génial. C'est trop bien. C'est incroyable.",
+        "author": "Daphnée",
+        "role": "Élève de CM2"
+      }
+    },
+    "footer": {
+      "about": {
+        "title": "Tuteur Privé",
+        "description": "Ton assistant d'apprentissage intelligent qui t'aide à progresser à ton rythme."
+      },
+      "commitment": {
+        "title": "Engagement",
+        "items": {
+          "data": "Protection des données",
+          "security": "Sécurité renforcée",
+          "privacy": "Confidentialité garantie"
+        }
+      },
+      "links": {
+        "title": "Liens utiles",
+        "login": "Se connecter",
+        "signup": "S'inscrire",
+        "faq": "FAQ"
+      },
+      "legal": {
+        "title": "Informations légales",
+        "terms": "Conditions d'utilisation",
+        "privacy": "Conditions de vente"
+      },
+      "madeWith": "Fait avec amour en France",
+      "copyright": "© 2024 Tuteur Privé. Tous droits réservés."
+    }
+  },
+  "settings": {
+    "title": "Paramètres",
+    "language": "Langue",
+    "languages": {
+      "fr": "Français",
+      "en": "Anglais",
+      "id": "Indonésien"
+    }
+  },
+  "auth": {
+    "login": {
+      "title": "Connexion",
+      "email": "Email",
+      "password": "Mot de passe",
+      "submit": "Se connecter",
+      "loading": "Connexion...",
+      "noAccount": "Pas encore de compte ? S'inscrire",
+      "forgotPassword": "Mot de passe oublié ?"
+    },
+    "register": {
+      "title": "Créer un compte",
+      "email": "Email",
+      "password": "Mot de passe",
+      "submit": "Créer mon compte",
+      "loading": "Création du compte...",
+      "hasAccount": "Déjà un compte ? Se connecter"
+    },
+    "resetPassword": {
+      "title": "Mot de passe oublié ?",
+      "email": "Email",
+      "submit": "Réinitialiser le mot de passe",
+      "loading": "Envoi en cours...",
+      "backToLogin": "Retour à la connexion",
+      "success": {
+        "title": "Email envoyé !",
+        "message": "Si un compte existe avec cette adresse email, vous recevrez un lien pour réinitialiser votre mot de passe.",
+        "action": "Retour à la connexion"
+      }
+    },
+    "updatePassword": {
+      "title": "Nouveau mot de passe",
+      "newPassword": "Nouveau mot de passe",
+      "confirmPassword": "Confirmer le mot de passe",
+      "submit": "Mettre à jour le mot de passe",
+      "loading": "Mise à jour...",
+      "success": "Votre mot de passe a été mis à jour avec succès"
+    },
+    "errors": {
+      "invalidCredentials": "Email ou mot de passe incorrect",
+      "emailExists": "Un compte existe déjà avec cet email",
+      "passwordMismatch": "Les mots de passe ne correspondent pas",
+      "generic": "Une erreur est survenue. Veuillez réessayer."
+    }
+  },
+  "profile": {
+    "create": {
+      "title": "Créer un profil",
+      "back": "Retour",
+      "name": "Prénom",
+      "grade": "Classe",
+      "avatar": "Avatar",
+      "avatarColor": "Couleur de fond de l'avatar",
+      "submit": "Créer le profil"
+    },
+    "select": {
+      "title": "Qui veut apprendre ?",
+      "addProfile": "Ajouter un profil",
+      "settings": "Paramètres"
+    },
+    "edit": {
+      "title": "Modifier mon profil",
+      "back": "Retour",
+      "submit": "Enregistrer les modifications",
+      "loading": "Chargement..."
+    }
+  },
+  "modes": {
+    "title": "Sélectionner un mode",
+    "lesson": {
+      "title": "Apprendre ta leçon",
+      "description": "Montre-moi ta leçon et je te ferais des exercices personnalisés !",
+      "loading": "Création de la leçon en cours",
+      "newLesson": "Nouvelle leçon"
+    },
+    "guided": {
+      "title": "Aide pas à pas",
+      "description": "Je t'aide à résoudre tes devoirs !",
+      "loading": "Analyse des exercices en cours",
+      "newExercise": "Nouvel exercice"
+    },
+    "correction": {
+      "title": "Vérifier mes réponses",
+      "description": "Je corrige ton travail !",
+      "loading": "Correction des exercices en cours",
+      "newCorrection": "Nouvelle correction"
+    },
+    "community": {
+      "title": "Communauté",
+      "description": "Découvre et partage avec la communauté !",
+      "loading": "Chargement de la communauté"
+    }
+  },
+  "analysis": {
+    "loading": {
+      "title": "Analyse en cours",
+      "description": "Veuillez patienter pendant le traitement",
+      "timeEstimate": "Cette opération peut prendre jusqu'à 30 secondes",
+      "multipleFiles": "({count} images × 30 secondes)"
+    },
+    "error": {
+      "title": "Une erreur est survenue",
+      "retry": "Réessayer avec la même image",
+      "restart": "Recommencer",
+      "noTokens": "Vous n'avez plus de jetons disponibles. Revenez demain pour en obtenir de nouveaux."
+    },
+    "tokens": {
+      "remaining": "{count} jeton | {count} jetons",
+      "daily": "2 jetons offerts chaque jour"
+    }
+  },
+  "history": {
+    "title": "Mon historique",
+    "empty": {
+      "title": "Aucun historique disponible",
+      "message": "Vos analyses apparaîtront ici"
+    },
+    "filters": {
+      "title": "Filtres",
+      "subject": "Matière",
+      "type": "Type"
+    },
+    "types": {
+      "lesson": "Leçons",
+      "correction": "Corrections",
+      "guided": "Aide guidée"
+    },
+    "detail": {
+      "back": "Retour à l'historique",
+      "share": "Partager",
+      "report": "Signaler",
+      "add": "Ajouter",
+      "saving": "Sauvegarde..."
+    }
+  },
+  "subjects": {
+    "FRENCH": "Français",
+    "MATH": "Mathématiques",
+    "HISTORY_GEO": "Histoire - Géographie",
+    "ENGLISH": "Anglais",
+    "EMC": "Enseignement Moral et Civique",
+    "SCIENCE": "Sciences et Technologie",
+    "SVT": "Sciences de la Vie et de la Terre",
+    "PHYSIQUE_CHIMIE": "Physique-Chimie",
+    "TECHNOLOGIE": "Technologie"
+  },
+  "common": {
+    "back": "Retour"
+  },
+  "lesson": {
+    "tabs": {
+      "summary": "Résumé",
+      "vocabulary": "Vocabulaire",
+      "vocabularyQuiz": "QCM Vocabulaire",
+      "quiz": "Quiz",
+      "questions": "Questions"
+    },
+    "nextButton": "Passer à la suite",
+    "completeButton": "Terminer la leçon",
+    "summary": {
+      "title": "Résumé",
+      "difficulty": {
+        "easy": "facile",
+        "medium": "moyen",
+        "hard": "difficile"
+      },
+      "keyConcepts": "Concepts clés :"
+    },
+    "vocabulary": {
+      "title": "Vocabulaire à retenir"
+    },
+    "quiz": {
+      "question": "Question",
+      "resetQuiz": "Réinitialiser le quiz",
+      "score": {
+        "title": "Score final : ",
+        "excellent": "Excellent ! Continue comme ça ! 🌟",
+        "good": "Très bien ! Tu es sur la bonne voie ! 👏",
+        "average": "Pas mal ! Continue tes efforts ! 💪",
+        "needsWork": "Continue de travailler, tu vas y arriver ! 🎯"
+      }
+    },
+    "questions": {
+      "title": "Questions de compréhension",
+      "writeAnswer": "Écris ta réponse ici...",
+      "showHint": "Voir l'indice",
+      "hideHint": "Masquer l'indice",
+      "validate": "Valider",
+      "validating": "Validation...",
+      "resetQuestions": "Réinitialiser les questions"
+    }
+  },
+  "stats": {
+    "title": "Mes statistiques",
+    "totalScore": {
+      "title": "Score total",
+      "pointsExplanation": "QCM : 1 point • Questions : 3 points",
+      "points": "points"
+    },
+    "overview": {
+      "lessonsStudied": "Leçons étudiées",
+      "totalTime": "Temps total",
+      "successRate": "Taux de réussite",
+      "currentStreak": "Série actuelle",
+      "minutes": "min",
+      "days": "j"
+    },
+    "subjectProgress": {
+      "title": "Progression par matière"
+    },
+    "weeklyActivity": {
+      "title": "Activité hebdomadaire",
+      "days": ["Dim", "Lun", "Mar", "Mer", "Jeu", "Ven", "Sam"]
+    },
+    "learningStreak": {
+      "title": "Série d'apprentissage",
+      "consecutiveDays": "jours consécutifs"
+    },
+    "achievements": {
+      "title": "Succès débloqués",
+      "firstLesson": {
+        "title": "Première leçon",
+        "description": "Tu as étudié ta première leçon"
+      },
+      "perfectScore": {
+        "title": "Score parfait",
+        "description": "100% de bonnes réponses à un quiz"
+      },
+      "streak3": {
+        "title": "Série de 3 jours",
+        "description": "3 jours consécutifs d'apprentissage"
+      },
+      "subjects5": {
+        "title": "Touche-à-tout",
+        "description": "Étudié 5 matières différentes"
+      }
+    }
+  },
+  "upload": {
+    "dropHere": "Déposez vos fichiers ici",
+    "takePhotoOrSelect": "Prends en photo tes {type} ou sélectionne des fichiers",
+    "addMore": "Ajouter d'autres documents",
+    "timeEstimate": "L'analyse peut prendre jusqu'à 30 secondes",
+    "multipleFiles": " ({count} images × 30 secondes)",
+    "lesson": {
+      "title": "Déposer vos documents de cours",
+      "type": "documents"
+    },
+    "guided": {
+      "title": "Déposer vos exercices pour obtenir de l'aide",
+      "type": "exercices"
+    },
+    "correction": {
+      "title": "Déposer vos exercices à corriger",
+      "type": "exercices"
+    }
+  }
+}

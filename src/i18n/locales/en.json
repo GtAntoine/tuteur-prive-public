@@ -1,0 +1,335 @@
+{
+  "landing": {
+    "hero": {
+      "title": "Private Tutor",
+      "subtitle": "Your personalized tutor for learning!",
+      "cta": "Get Started",
+      "login": "Login",
+      "signup": "Sign up"
+    },
+    "features": {
+      "exercises": {
+        "title": "Personalized Exercises",
+        "description": "Vocabulary and comprehension exercises adapted to your level and lesson"
+      },
+      "help": {
+        "title": "Step by Step Help",
+        "description": "Guided help to solve your exercises without having the direct solution"
+      },
+      "correction": {
+        "title": "Intelligent Correction",
+        "description": "Detailed corrections with explanations adapted to your level"
+      },
+      "anticheat": {
+        "title": "Anti-Cheat",
+        "description": "A system designed to help you learn, not to cheat"
+      }
+    },
+    "testimonials": {
+      "title": "What our users say",
+      "testimonial1": {
+        "text": "Daphnée was dragging out learning her lesson and with Private Tutor, it was done in fifteen minutes.",
+        "author": "Isabelle",
+        "role": "Daphnée's grandmother"
+      },
+      "testimonial2": {
+        "text": "It's great. It's awesome. It's incredible.",
+        "author": "Daphnée",
+        "role": "5th Grade Student"
+      }
+    },
+    "footer": {
+      "about": {
+        "title": "Private Tutor",
+        "description": "Your intelligent learning assistant that helps you progress at your own pace."
+      },
+      "commitment": {
+        "title": "Commitment",
+        "items": {
+          "data": "Data protection",
+          "security": "Enhanced security",
+          "privacy": "Guaranteed confidentiality"
+        }
+      },
+      "links": {
+        "title": "Useful links",
+        "login": "Login",
+        "signup": "Sign up",
+        "faq": "FAQ"
+      },
+      "legal": {
+        "title": "Legal information",
+        "terms": "Terms of use",
+        "privacy": "Terms of sale"
+      },
+      "madeWith": "Made with love in France",
+      "copyright": "© 2024 Private Tutor. All rights reserved."
+    }
+  },
+  "settings": {
+    "title": "Settings",
+    "language": "Language",
+    "languages": {
+      "fr": "French",
+      "en": "English",
+      "id": "Indonesian"
+    }
+  },
+  "auth": {
+    "login": {
+      "title": "Login",
+      "email": "Email",
+      "password": "Password",
+      "submit": "Login",
+      "loading": "Logging in...",
+      "noAccount": "Don't have an account? Sign up",
+      "forgotPassword": "Forgot password?"
+    },
+    "register": {
+      "title": "Create an account",
+      "email": "Email",
+      "password": "Password",
+      "submit": "Create my account",
+      "loading": "Creating account...",
+      "hasAccount": "Already have an account? Login"
+    },
+    "resetPassword": {
+      "title": "Forgot password?",
+      "email": "Email",
+      "submit": "Reset password",
+      "loading": "Sending...",
+      "backToLogin": "Back to login",
+      "success": {
+        "title": "Email sent!",
+        "message": "If an account exists with this email address, you will receive a password reset link.",
+        "action": "Return to login"
+      }
+    },
+    "updatePassword": {
+      "title": "New password",
+      "newPassword": "New password",
+      "confirmPassword": "Confirm password",
+      "submit": "Update password",
+      "loading": "Updating...",
+      "success": "Your password has been successfully updated"
+    },
+    "errors": {
+      "invalidCredentials": "Invalid email or password",
+      "emailExists": "An account already exists with this email",
+      "passwordMismatch": "Passwords do not match",
+      "generic": "An error occurred. Please try again."
+    }
+  },
+  "profile": {
+    "create": {
+      "title": "Create Profile",
+      "back": "Back",
+      "name": "First Name",
+      "grade": "Grade",
+      "avatar": "Avatar",
+      "avatarColor": "Avatar Background Color",
+      "submit": "Create Profile"
+    },
+    "select": {
+      "title": "Who wants to learn?",
+      "addProfile": "Add Profile",
+      "settings": "Settings"
+    },
+    "edit": {
+      "title": "Edit My Profile",
+      "back": "Back",
+      "submit": "Save Changes",
+      "loading": "Loading..."
+    }
+  },
+  "modes": {
+    "title": "Select a mode",
+    "lesson": {
+      "title": "Learn your lesson",
+      "description": "Show me your lesson and I'll create personalized exercises!",
+      "loading": "Creating lesson",
+      "newLesson": "New lesson"
+    },
+    "guided": {
+      "title": "Step by step help",
+      "description": "I help you solve your homework!",
+      "loading": "Analyzing exercises",
+      "newExercise": "New exercise"
+    },
+    "correction": {
+      "title": "Check my answers",
+      "description": "I correct your work!",
+      "loading": "Correcting exercises",
+      "newCorrection": "New correction"
+    },
+    "community": {
+      "title": "Community",
+      "description": "Discover and share with the community!",
+      "loading": "Loading community"
+    }
+  },
+  "analysis": {
+    "loading": {
+      "title": "Analysis in progress",
+      "description": "Please wait while processing",
+      "timeEstimate": "This operation can take up to 30 seconds",
+      "multipleFiles": "({count} images × 30 seconds)"
+    },
+    "error": {
+      "title": "An error occurred",
+      "retry": "Retry with the same image",
+      "restart": "Start over",
+      "noTokens": "You have no tokens left. Come back tomorrow to get new ones."
+    },
+    "tokens": {
+      "remaining": "{count} token | {count} tokens",
+      "daily": "2 tokens given daily"
+    }
+  },
+  "history": {
+    "title": "My History",
+    "empty": {
+      "title": "No history available",
+      "message": "Your analyses will appear here"
+    },
+    "filters": {
+      "title": "Filters",
+      "subject": "Subject",
+      "type": "Type"
+    },
+    "types": {
+      "lesson": "Lessons",
+      "correction": "Corrections",
+      "guided": "Guided Help"
+    },
+    "detail": {
+      "back": "Back to history",
+      "share": "Share",
+      "report": "Report",
+      "add": "Add",
+      "saving": "Saving..."
+    }
+  },
+  "subjects": {
+    "FRENCH": "French",
+    "MATH": "Mathematics",
+    "HISTORY_GEO": "History - Geography",
+    "ENGLISH": "English",
+    "EMC": "Moral and Civic Education",
+    "SCIENCE": "Science and Technology",
+    "SVT": "Life and Earth Sciences",
+    "PHYSIQUE_CHIMIE": "Physics-Chemistry",
+    "TECHNOLOGIE": "Technology"
+  },
+  "common": {
+    "back": "Back"
+  },
+  "lesson": {
+    "tabs": {
+      "summary": "Summary",
+      "vocabulary": "Vocabulary",
+      "vocabularyQuiz": "Vocabulary Quiz",
+      "quiz": "Quiz",
+      "questions": "Questions"
+    },
+    "nextButton": "Continue",
+    "completeButton": "Complete lesson",
+    "summary": {
+      "title": "Summary",
+      "difficulty": {
+        "easy": "easy",
+        "medium": "medium",
+        "hard": "difficult"
+      },
+      "keyConcepts": "Key concepts:"
+    },
+    "vocabulary": {
+      "title": "Vocabulary to remember"
+    },
+    "quiz": {
+      "question": "Question {number}",
+      "resetQuiz": "Reset quiz",
+      "score": {
+        "title": "Final score: ",
+        "excellent": "Excellent! Keep it up! 🌟",
+        "good": "Very good! You're on the right track! 👏",
+        "average": "Not bad! Keep up your efforts! 💪",
+        "needsWork": "Keep working, you'll get there! 🎯"
+      }
+    },
+    "questions": {
+      "title": "Comprehension questions",
+      "writeAnswer": "Write your answer here...",
+      "showHint": "Show hint",
+      "hideHint": "Hide hint",
+      "validate": "Validate",
+      "validating": "Validating...",
+      "resetQuestions": "Reset questions"
+    }
+  },
+  "stats": {
+    "title": "My Statistics",
+    "totalScore": {
+      "title": "Total Score",
+      "pointsExplanation": "Quiz: 1 point • Questions: 3 points",
+      "points": "points"
+    },
+    "overview": {
+      "lessonsStudied": "Lessons studied",
+      "totalTime": "Total time",
+      "successRate": "Success rate",
+      "currentStreak": "Current streak",
+      "minutes": "min",
+      "days": "d"
+    },
+    "subjectProgress": {
+      "title": "Progress by subject"
+    },
+    "weeklyActivity": {
+      "title": "Weekly activity",
+      "days": ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"]
+    },
+    "learningStreak": {
+      "title": "Learning streak",
+      "consecutiveDays": "consecutive days"
+    },
+    "achievements": {
+      "title": "Achievements unlocked",
+      "firstLesson": {
+        "title": "First lesson",
+        "description": "You studied your first lesson"
+      },
+      "perfectScore": {
+        "title": "Perfect score",
+        "description": "100% correct answers on a quiz"
+      },
+      "streak3": {
+        "title": "3-day streak",
+        "description": "3 consecutive days of learning"
+      },
+      "subjects5": {
+        "title": "Jack of all trades",
+        "description": "Studied 5 different subjects"
+      }
+    }
+  },
+  "upload": {
+    "dropHere": "Drop your files here",
+    "takePhotoOrSelect": "Take photos of your {type} or select files",
+    "addMore": "Add more documents",
+    "timeEstimate": "Analysis can take up to {seconds} seconds",
+    "multipleFiles": " ({count} images × 30 seconds)",
+    "lesson": {
+      "title": "Upload your course documents",
+      "type": "documents"
+    },
+    "guided": {
+      "title": "Upload your exercises to get help",
+      "type": "exercises"
+    },
+    "correction": {
+      "title": "Upload your exercises to correct",
+      "type": "exercises"
+    }
+  }
+}
