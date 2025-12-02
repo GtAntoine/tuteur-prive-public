@@ -1,6 +1,6 @@
-# 📚 TuteurPrivé — Product Owner Case Study
+# 📚 TuteurPrivé — Case Study
 
-> Portfolio complet de Product Ownership autour de l'application [TuteurPrivé](https://tuteurprive.com), 
+> Portfolio complet de l'application [TuteurPrivé](https://tuteurprive.com), 
 > une plateforme éducative utilisant l'IA pour transformer l'apprentissage scolaire
 
 <div align="center">
@@ -34,7 +34,7 @@ TuteurPrivé est une application éducative innovante qui utilise l'intelligence
 
 Contrairement aux IA éducatives généralistes (comme [Louxor.ai](https://louxor.ai/)), TuteurPrivé ne se contente pas d'expliquer des concepts. **L'application transforme les vraies leçons des élèves en contenu pédagogique interactif.**
 
-Ce repo documente **mon travail de Product Owner** sur ce produit :
+Ce repo documente mon travail sur ce produit :
 - Vision produit et positionnement marché
 - Personas utilisateurs
 - Architecture fonctionnelle
@@ -144,7 +144,7 @@ Les documents détaillés se trouvent dans le dossier [`docs/`](./docs).
 
 Ce portfolio démontre :
 
-### Compétences Product Owner
+### Compétences
 - ✅ **Vision produit** : définition claire du problème et de la solution
 - ✅ **Analyse de marché** : comparaison concurrentielle et positionnement
 - ✅ **Priorisation** : backlog structuré avec méthode MoSCoW
@@ -157,10 +157,6 @@ Ce portfolio démontre :
 - ✅ **User-centric** : validation continue avec utilisateurs réels
 - ✅ **Sécurité** : prise en compte des enjeux de sécurité dans les décisions produit
 - ✅ **Innovation** : pipeline IA unique sur le marché éducatif
-
-### Certifications
-- **[Professional Scrum Product Owner II](https://www.credly.com/badges/e66d6dd1-b6c9-4ed4-a78f-27612df6d5ae)**
-- **[Professional Scrum Master I](https://www.credly.com/badges/bc483041-bdf5-4ecc-87d0-f2bb0d16bd8d)**
 
 ---
 
