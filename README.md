@@ -1,7 +1,16 @@
 # 📚 TuteurPrivé — Product Owner Case Study
 
-> Portfolio complet de Product Ownership autour de l'application TuteurPrivé
-> Une plateforme éducative utilisant l'IA pour transformer l'apprentissage scolaire
+> Portfolio complet de Product Ownership autour de l'application [TuteurPrivé](https://tuteurprive.com), 
+> une plateforme éducative utilisant l'IA pour transformer l'apprentissage scolaire
+
+<div align="center">
+  <img src="./public/images/TPT1.jpg" alt="Page d'accueil" width="49%" />
+  <img src="./public/images/TPT2.jpg" alt="Interface interactive" width="49%" />
+  <br/>
+  <em>Page d'accueil de l'application • Interface interactive avec QCM et questions</em>
+</div>
+
+---
 
 ## 🔗 Liens Utiles
 
@@ -9,11 +18,6 @@
 - **Exemples de Leçons Générées :**
   - [La démographie en France](https://tuteurprive.com/shared/97b9edc4-aab8-46f1-9c1f-e9dec2d4ad90/la-demographie-en-france)
   - [L'école sous la IIIe République](https://tuteurprive.com/shared/05c5fa54-7bb3-4396-842c-73f751d315eb/l-ecole-sous-la-iiie-republique)
-
----
-
-**Auteur:** Antoine Goethals
-**Rôle:** Product Owner & Lead Developer
 
 ---
 
@@ -28,7 +32,7 @@ TuteurPrivé est une application éducative innovante qui utilise l'intelligence
 
 ### 🎯 La différence TuteurPrivé
 
-Contrairement aux IA éducatives généralistes (comme Louxor.ai), TuteurPrivé ne se contente pas d'expliquer des concepts. **L'application transforme les vraies leçons des élèves en contenu pédagogique interactif.**
+Contrairement aux IA éducatives généralistes (comme [Louxor.ai](https://louxor.ai/)), TuteurPrivé ne se contente pas d'expliquer des concepts. **L'application transforme les vraies leçons des élèves en contenu pédagogique interactif.**
 
 Ce repo documente **mon travail de Product Owner** sur ce produit :
 - Vision produit et positionnement marché
@@ -67,8 +71,6 @@ Les documents détaillés se trouvent dans le dossier [`docs/`](./docs).
 - **[07 - KPIs et Mesure d'Impact](./docs/07-kpis-et-mesure-impact.md)**
   Indicateurs suivis, hypothèses, mesure de l'impact pédagogique
 
-- **[08 - Cas Pratique PO](./docs/08-cas-pratique-po.md)**
-  Exemple concret : migration vers l'architecture sécurisée OpenAI
 
 ---
 
@@ -88,18 +90,6 @@ Les documents détaillés se trouvent dans le dossier [`docs/`](./docs).
 [Adaptation au niveau de l'élève]
 ```
 
-### Architecture Sécurisée
-
-```
-Frontend React
-    ↓
-Supabase Edge Functions (Proxy)
-    ↓
-OpenAI API
-```
-
-**Décision PO critique :** Migrer les appels OpenAI vers des Edge Functions pour sécuriser la clé API et éviter sa désactivation par OpenAI.
-
 ### Stack Technique
 
 - **Frontend:** React 18 + TypeScript + Vite + Tailwind CSS
@@ -114,11 +104,11 @@ OpenAI API
 - **15k lignes de code** dans `src/`
   - TypeScript (.ts) : 5k lignes
   - TypeScript React (.tsx) : 10k lignes
-  - 226 fichiers TS/TSX
+  - 200+ fichiers TS/TSX
 
 ---
 
-## 🆚 Positionnement Marché vs Louxor.ai
+## 🆚 Positionnement Marché vs [Louxor.ai](https://louxor.ai/)
 
 | Critère | Louxor.ai | TuteurPrivé |
 |---------|-----------|-------------|
@@ -169,22 +159,8 @@ Ce portfolio démontre :
 - ✅ **Innovation** : pipeline IA unique sur le marché éducatif
 
 ### Certifications
-- **PSPO I & II** (Professional Scrum Product Owner)
-- **Scrum Master**
-
----
-
-## 📸 Aperçu de l'Application
-
-<div align="center">
-
-![Analyse de Leçon](./TP1.png)
-*Analyse d'une leçon avec génération automatique de QCM et questions*
-
-![Résultats Interactifs](./TP2.png)
-*Interface interactive avec QCM, questions de compréhension et vocabulaire*
-
-</div>
+- **[Professional Scrum Product Owner II](https://www.credly.com/badges/e66d6dd1-b6c9-4ed4-a78f-27612df6d5ae)**
+- **[Professional Scrum Master I](https://www.credly.com/badges/bc483041-bdf5-4ecc-87d0-f2bb0d16bd8d)**
 
 ---
 
