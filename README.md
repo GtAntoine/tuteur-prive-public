@@ -1,4 +1,4 @@
-# 📚 TuteurPrivé — Case Study
+# 📚 TuteurPrivé - Case Study
 
 > Portfolio complet de l'application [TuteurPrivé](https://tuteurprive.com), 
 > une plateforme éducative utilisant l'IA pour transformer l'apprentissage scolaire
