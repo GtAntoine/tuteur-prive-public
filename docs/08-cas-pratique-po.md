@@ -147,9 +147,6 @@ Remplacer OpenAI par Claude (Anthropic) qui pourrait avoir des règles différen
 
 **Inconvénients :**
 - Pas de garantie que le problème ne se reproduise pas
-- Migration complète des prompts
-- Pas de support vision (Claude 3 Vision pas encore public)
-- 5-7 jours de migration
 - Risque de régression qualité
 
 **Décision :** **Éliminé** - Trop risqué et trop long
@@ -454,10 +451,6 @@ Parce que sans cette fix, le projet n'est PAS viable. 1 semaine de retard vs pro
    - Wrapper frontend
    - Mimique l'API OpenAI originale
    - Error handling
-
-5. **Mise à jour `CLAUDE.md`**
-   - Section "Architecture de Sécurité"
-   - Warning sur l'ancien client
 
 ---
 

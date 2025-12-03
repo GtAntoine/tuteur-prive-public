@@ -111,7 +111,7 @@ Semaine 3 de V1, la clé OpenAI a été désactivée 3 fois en 1 semaine. L'app 
 | **B. Migrer vers Edge Functions** | Sécurisé, conforme OpenAI | 3-4 jours de travail, bloque autres features | **Choisi** |
 | **C. Switch vers Anthropic Claude** | Pas de problème de clé | Migration complète, coût incertain | Trop risqué |
 
-**Décision PO :**
+**Décision :**
 > Prioriser la migration Edge Functions en urgence (P0), bloquer toutes autres features jusqu'à résolution. Mieux perdre 1 semaine de roadmap que d'avoir une app cassée.
 
 **Résultat :**
@@ -245,7 +245,6 @@ Sprint 2 de V1, définir le nombre de tokens gratuits à l'inscription.
 - **Observation** : regarder l'usage (UX insights)
 
 **Futurs Utilisateurs :**
-- **Email** : hello@tuteurprive.com
 - **Formulaire in-app** : "Signaler un problème"
 - **Analytics** : (V2) Mixpanel ou Amplitude
 
@@ -334,8 +333,6 @@ En pratique (sprint de 2 semaines = 10 jours) :
 | **XL** | 10-15 jours | Mode professeur |
 | **XXL** | 15+ jours | Marketplace de leçons |
 
-**Règle PO :** Si une feature est > M, découper en sous-features ou en plusieurs sprints.
-
 ---
 
 ## 8. Découpage d'une Fonctionnalité (Exemple Réel)
@@ -373,16 +370,14 @@ Epic: Analyse de Leçon (10 jours)
 
 ---
 
-## 9. Outils & Stack PO
+## 9. Outils & Stack 
 
 ### Outils Utilisés
 
 | Outil | Usage | Justification |
 |-------|-------|---------------|
-| **Notion** | Backlog, docs, notes | Flexible, visuel |
+| **Notes** | Backlog, docs, notes | Flexible |
 | **GitHub** | Code + issues + projects | Intégré au code |
-| **Figma** | (Minimal) Wireframes rapides | Standard design |
-| **Google Sheets** | Suivi KPIs (temporaire) | Simple, pas besoin d'outil complexe en V1 |
 | **Netlify** | Hosting + CI/CD | Auto-deploy, simple |
 | **Supabase Dashboard** | Database + logs + analytics | Intégré au backend |
 
