@@ -1,4 +1,4 @@
-# 04 — Backlog Produit
+# 04 - Backlog Produit
 
 > Format : Épics → User Stories → Critères d'acceptation → Priorisation MoSCoW
 
@@ -10,7 +10,7 @@
 
 ---
 
-### US1.1 — Upload de photo de cours
+### US1.1 - Upload de photo de cours
 
 **En tant qu'** élève
 **Je veux** pouvoir prendre une photo de mon cours ou télécharger une image
@@ -28,7 +28,7 @@
 
 ---
 
-### US1.2 — Support multi-formats (PDF, DOCX)
+### US1.2 - Support multi-formats (PDF, DOCX)
 
 **En tant qu'** élève
 **Je veux** pouvoir uploader des PDF ou documents Word
@@ -48,7 +48,7 @@
 
 ---
 
-### US1.3 — Saisie texte manuelle
+### US1.3 - Saisie texte manuelle
 
 **En tant qu'** élève
 **Je veux** pouvoir coller du texte directement
@@ -65,7 +65,7 @@
 
 ---
 
-### US1.4 — Génération de QCM personnalisés
+### US1.4 - Génération de QCM personnalisés
 
 **En tant qu'** élève
 **Je veux** recevoir un QCM basé sur ma leçon
@@ -86,7 +86,7 @@
 
 ---
 
-### US1.5 — Questions de compréhension ouvertes
+### US1.5 - Questions de compréhension ouvertes
 
 **En tant qu'** élève
 **Je veux** répondre à des questions ouvertes
@@ -104,7 +104,7 @@
 
 ---
 
-### US1.6 — Section vocabulaire avec QCM dédiés
+### US1.6 - Section vocabulaire avec QCM dédiés
 
 **En tant qu'** élève
 **Je veux** voir une liste de vocabulaire clé avec définitions
@@ -121,7 +121,7 @@
 
 ---
 
-### US1.7 — Réponses vocales (Whisper)
+### US1.7 - Réponses vocales (Whisper)
 
 **En tant qu'** élève
 **Je veux** pouvoir répondre aux questions oralement
@@ -146,7 +146,7 @@
 
 ---
 
-### US2.1 — Upload énoncé + copie élève
+### US2.1 - Upload énoncé + copie élève
 
 **En tant qu'** élève
 **Je veux** prendre une photo de l'énoncé ET de ma copie
@@ -163,7 +163,7 @@
 
 ---
 
-### US2.2 — Analyse du raisonnement
+### US2.2 - Analyse du raisonnement
 
 **En tant qu'** élève
 **Je veux** que l'IA analyse mon raisonnement
@@ -180,7 +180,7 @@
 
 ---
 
-### US2.3 — Feedback structuré
+### US2.3 - Feedback structuré
 
 **En tant qu'** élève
 **Je veux** recevoir un feedback organisé
@@ -199,7 +199,7 @@
 
 ---
 
-### US2.4 — Ne pas donner la réponse directement
+### US2.4 - Ne pas donner la réponse directement
 
 **En tant que** PO soucieux de pédagogie
 **Je veux** que l'IA guide sans dévoiler la solution complète
@@ -224,7 +224,7 @@
 
 ---
 
-### US3.1 — Analyse de difficulté
+### US3.1 - Analyse de difficulté
 
 **En tant qu'** élève
 **Je veux** que l'IA identifie la difficulté d'un exercice
@@ -240,7 +240,7 @@
 
 ---
 
-### US3.2 — Décomposition en étapes
+### US3.2 - Décomposition en étapes
 
 **En tant qu'** élève bloqué sur un exercice
 **Je veux** recevoir une décomposition pas-à-pas
@@ -257,7 +257,7 @@
 
 ---
 
-### US3.3 — Points clés et objectifs pédagogiques
+### US3.3 - Points clés et objectifs pédagogiques
 
 **En tant qu'** élève
 **Je veux** comprendre ce que l'exercice me fait travailler
@@ -279,7 +279,7 @@
 
 ---
 
-### US4.1 — Création de profils multiples
+### US4.1 - Création de profils multiples
 
 **En tant que** parent
 **Je veux** créer un profil par enfant
@@ -296,7 +296,7 @@
 
 ---
 
-### US4.2 — Sélection rapide de profil
+### US4.2 - Sélection rapide de profil
 
 **En tant qu'** utilisateur avec plusieurs profils
 **Je veux** changer de profil facilement
@@ -312,7 +312,7 @@
 
 ---
 
-### US4.3 — Personnalisation avatar
+### US4.3 - Personnalisation avatar
 
 **En tant qu'** élève
 **Je veux** choisir mon avatar et ma couleur
@@ -334,7 +334,7 @@
 
 ---
 
-### US5.1 — Historique des leçons
+### US5.1 - Historique des leçons
 
 **En tant qu'** élève
 **Je veux** voir la liste de toutes mes leçons passées
@@ -351,7 +351,7 @@
 
 ---
 
-### US5.2 — Modification du titre de leçon
+### US5.2 - Modification du titre de leçon
 
 **En tant qu'** élève
 **Je veux** pouvoir renommer une leçon
@@ -367,7 +367,7 @@
 
 ---
 
-### US5.3 — Partage public de leçon
+### US5.3 - Partage public de leçon
 
 **En tant qu'** élève
 **Je veux** pouvoir partager une leçon via un lien
@@ -386,7 +386,7 @@
 
 ---
 
-### US5.4 — Suppression de leçon
+### US5.4 - Suppression de leçon
 
 **En tant qu'** élève
 **Je veux** pouvoir supprimer une leçon de mon historique
@@ -408,7 +408,7 @@
 
 ---
 
-### US6.1 — Affichage du solde de tokens
+### US6.1 - Affichage du solde de tokens
 
 **En tant qu'** utilisateur
 **Je veux** voir mon solde de tokens en permanence
@@ -424,7 +424,7 @@
 
 ---
 
-### US6.2 — Vérification avant action coûteuse
+### US6.2 - Vérification avant action coûteuse
 
 **En tant que** système
 **Je veux** vérifier les tokens avant chaque analyse
@@ -440,7 +440,7 @@
 
 ---
 
-### US6.3 — Achat de tokens via Stripe
+### US6.3 - Achat de tokens via Stripe
 
 **En tant qu'** utilisateur
 **Je veux** acheter des tokens facilement
@@ -458,7 +458,7 @@
 
 ---
 
-### US6.4 — Tokens gratuits à l'inscription
+### US6.4 - Tokens gratuits à l'inscription
 
 **En tant que** nouvel utilisateur
 **Je veux** recevoir 20 tokens gratuits
@@ -482,7 +482,7 @@
 
 ---
 
-### US7.1 — Inscription / Connexion
+### US7.1 - Inscription / Connexion
 
 **En tant qu'** utilisateur
 **Je veux** créer un compte et me connecter
@@ -499,7 +499,7 @@
 
 ---
 
-### US7.2 — Migration sécurisée OpenAI
+### US7.2 - Migration sécurisée OpenAI
 
 **En tant que** PO
 **Je veux** sécuriser les appels OpenAI via Edge Functions

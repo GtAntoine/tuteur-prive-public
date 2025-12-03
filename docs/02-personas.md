@@ -1,4 +1,4 @@
-# 02 — Personas
+# 02 - Personas
 
 ## Méthodologie
 
@@ -9,7 +9,7 @@ Ces personas sont basés sur :
 
 ---
 
-## Persona 1 — Léa, Élève de 5ème (Utilisateur Principal)
+## Persona 1 - Léa, Élève de 5ème (Utilisateur Principal)
 
 ### Profil
 
@@ -85,7 +85,7 @@ Ces personas sont basés sur :
 
 ---
 
-## Persona 2 — Sophie, Parent (Utilisateur Secondaire)
+## Persona 2 - Sophie, Parent (Utilisateur Secondaire)
 
 ### Profil
 
@@ -158,7 +158,7 @@ Ces personas sont basés sur :
 
 ---
 
-## Persona 3 — Mathieu, Professeur Particulier (Futur - V3)
+## Persona 3 - Mathieu, Professeur Particulier (Futur - V3)
 
 ### Profil
 
@@ -244,7 +244,7 @@ Ces personas sont basés sur :
 
 ---
 
-## Anti-Persona — Lucas, Lycéen qui veut tricher
+## Anti-Persona - Lucas, Lycéen qui veut tricher
 
 ### Profil
 

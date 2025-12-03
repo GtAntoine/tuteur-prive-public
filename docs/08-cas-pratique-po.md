@@ -1,4 +1,4 @@
-# 08 — Cas Pratique PO : Migration vers Architecture Sécurisée
+# 08 - Cas Pratique PO : Migration vers Architecture Sécurisée
 
 ## 📋 Contexte
 

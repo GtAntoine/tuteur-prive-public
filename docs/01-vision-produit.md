@@ -1,4 +1,4 @@
-# 01 — Vision Produit
+# 01 - Vision Produit
 
 ## 1. Problème
 
@@ -177,7 +177,7 @@ TuteurPrivé est une application qui permet de **transformer n'importe quelle le
 
 ## 5. Objectifs par Version
 
-### V1 — App Élève : Fondations (Actuel)
+### V1 - App Élève : Fondations (Actuel)
 
 **Objectif :** Valider que le pipeline "photo → analyse → exercices" fonctionne et apporte de la valeur.
 
@@ -199,7 +199,7 @@ TuteurPrivé est une application qui permet de **transformer n'importe quelle le
 
 ---
 
-### V2 — Progression & Engagement (En cours)
+### V2 - Progression & Engagement (En cours)
 
 **Objectif :** Augmenter la rétention en ajoutant des mécaniques d'engagement et de suivi de progression.
 
@@ -217,7 +217,7 @@ TuteurPrivé est une application qui permet de **transformer n'importe quelle le
 
 ---
 
-### V3 — Mode Professeur (Futur)
+### V3 - Mode Professeur (Futur)
 
 **Objectif :** Ouvrir un nouveau segment de marché (B2B2C) en proposant un outil pour professeurs particuliers.
 
@@ -236,7 +236,7 @@ TuteurPrivé est une application qui permet de **transformer n'importe quelle le
 
 ---
 
-### V4 — Intelligence & Automatisation (Vision)
+### V4 - Intelligence & Automatisation (Vision)
 
 **Objectif :** Utiliser l'IA pour prédire les difficultés et adapter automatiquement le contenu.
 

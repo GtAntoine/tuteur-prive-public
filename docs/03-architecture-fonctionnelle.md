@@ -1,4 +1,4 @@
-# 03 — Architecture Fonctionnelle
+# 03 - Architecture Fonctionnelle
 
 ## 1. Vue d'Ensemble
 

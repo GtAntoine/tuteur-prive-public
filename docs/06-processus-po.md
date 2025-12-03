@@ -1,4 +1,4 @@
-# 06 — Processus Product Owner
+# 06 - Processus Product Owner
 
 ## 1. Cadre Méthodologique
 

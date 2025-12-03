@@ -1,4 +1,4 @@
-# 05 — Roadmap Produit
+# 05 - Roadmap Produit
 
 ## Vue Globale Stratégique
 
@@ -14,7 +14,7 @@
 
 ---
 
-## Release 1 — Fondations & Validation (Shipped — Décembre 2024)
+## Release 1 - Fondations & Validation (Shipped - Décembre 2024)
 
 ### Objectif Stratégique
 > **Valider que le pipeline "photo → analyse → exercices" apporte une vraie valeur pédagogique.**
@@ -73,7 +73,7 @@
 
 ---
 
-## Release 2 — Engagement & Rétention (En cours — Q1-Q2 2025)
+## Release 2 - Engagement & Rétention (En cours - Q1-Q2 2025)
 
 ### Objectif Stratégique
 > **Transformer les utilisateurs occasionnels en utilisateurs réguliers via la gamification et le suivi de progression.**
@@ -212,7 +212,7 @@
 
 ---
 
-## Release 3 — Expansion B2B2C : Mode Professeur  Q3-Q4 2025)
+## Release 3 - Expansion B2B2C : Mode Professeur  Q3-Q4 2025)
 
 ### Objectif Stratégique
 > **Ouvrir un nouveau segment de marché en proposant un outil pour professeurs particuliers, tout en augmentant la valeur pour les élèves.**
@@ -361,7 +361,7 @@
 
 ---
 
-## Release 4 — Intelligence & Scale (2026)
+## Release 4 - Intelligence & Scale (2026)
 
 ### Objectif Stratégique
 > **Utiliser l'IA pour prédire les difficultés et automatiser l'adaptation du contenu.**

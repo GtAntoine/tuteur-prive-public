@@ -1,4 +1,4 @@
-# 07 — KPIs et Mesure d'Impact
+# 07 - KPIs et Mesure d'Impact
 
 ## 1. Framework de Mesure
 
@@ -401,4 +401,4 @@ Marge : 162€ (32%)
 
 ---
 
-*"You can't improve what you don't measure. But don't measure everything — focus on the metrics that actually drive the business forward."*
+*"You can't improve what you don't measure. But don't measure everything, focus on the metrics that actually drive the business forward."*
