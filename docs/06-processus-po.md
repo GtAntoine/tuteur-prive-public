@@ -82,7 +82,6 @@ Une User Story est "Done" quand :
 - [x] Accessible (contrast, keyboard navigation basique)
 
 ### Documentation
-- [x] CLAUDE.md mis à jour si architecture changée
 - [x] README mis à jour si commandes ajoutées
 - [x] Commentaires dans le code sur la logique complexe
 
@@ -94,8 +93,6 @@ Une User Story est "Done" quand :
 ### Validation Utilisateur (pour features majeures)
 - [x] Testé par la beta tester (nièce)
 - [x] Feedback positif ou ajustements mineurs
-
-**Note PO :** DoD intentionnellement légère en V1 pour maximiser la vélocité. Sera renforcée en V2 (tests automatisés).
 
 ---
 
@@ -140,7 +137,7 @@ Sprint 5 de V1, focus sur corrections d'exercices. La beta tester demande : "Je 
 | **B. Ajouter en V1** | Améliore UX mobile, différenciation | +2 jours de dev, retarde correction exos | **Choisi** |
 | **C. Faire un MVP audio basique** | Compromis | Qualité médiocre, mauvaise expérience | Pas de compromis qualité |
 
-**Décision PO :**
+**Décision :**
 > Ajouter les réponses vocales en V1 (via Whisper). Justification :
 > - Feedback utilisateur fort (pain point réel)
 > - Différenciation vs concurrence
@@ -170,7 +167,7 @@ Sprint 7 de V1, découverte d'un bug : parfois les QCM générés ont des option
 | **B. Migrer vers format key-value (A/B/C/D)** | Résout le problème structurellement | 1 jour de refacto, breaking change | **Choisi** |
 | **C. Post-process côté frontend (dédupliquer)** | Pas de refacto backend | Masque le problème, complexité frontend | Bricolage |
 
-**Décision PO :**
+**Décision :**
 > Refactoriser le format QCM pour utiliser des clés (A/B/C/D) au lieu d'un array. Ajouter une validation stricte dans le prompt.
 
 **Implémentation :**
@@ -225,13 +222,13 @@ Sprint 2 de V1, définir le nombre de tokens gratuits à l'inscription.
 → Suffisant pour tester pendant 1-2 semaines
 ```
 
-**Décision PO :**
+**Décision :**
 > 20 tokens gratuits. Permet de tester toutes les features (leçon, correction, guidé) sans frustration immédiate, mais force conversion après usage sérieux.
 
 **Résultat (à mesurer sur 3 mois) :**
-- 🔄 Taux d'utilisation des 20 tokens : à tracker
-- 🔄 Conversion après épuisement : à tracker
-- 🔄 Feedback utilisateur : à collecter
+- Taux d'utilisation des 20 tokens : à tracker
+- Conversion après épuisement : à tracker
+- Feedback utilisateur : à collecter
 
 **Learning :**
 > Freemium = équilibre délicat. Trop généreux = pas de revenus. Trop restrictif = churn. Itérer selon data.
@@ -243,14 +240,14 @@ Sprint 2 de V1, définir le nombre de tokens gratuits à l'inscription.
 ### Canaux de Feedback
 
 **Beta Tester Principal (nièce) :**
-- 🗣️ **Verbal** : discussions après utilisation
-- 📱 **WhatsApp** : bugs/suggestions en temps réel
-- 🎥 **Observation** : regarder l'usage (UX insights)
+- **Verbal** : discussions après utilisation
+- **WhatsApp** : bugs/suggestions en temps réel
+- **Observation** : regarder l'usage (UX insights)
 
 **Futurs Utilisateurs :**
-- 📧 **Email** : hello@tuteurprive.com
-- 📝 **Formulaire in-app** : "Signaler un problème"
-- 📊 **Analytics** : (V2) Mixpanel ou Amplitude
+- **Email** : hello@tuteurprive.com
+- **Formulaire in-app** : "Signaler un problème"
+- **Analytics** : (V2) Mixpanel ou Amplitude
 
 ### Process de Traitement Feedback
 
@@ -310,9 +307,9 @@ Certaines dettes sont des erreurs et doivent être corrigées immédiatement :
 
 | Dette | Impact | Action |
 |-------|--------|--------|
-| **Clé API exposée** | 🚨 Critique (sécurité) | Corrigé immédiatement (Edge Functions) |
+| **Clé API exposée** | Critique (sécurité) | Corrigé immédiatement (Edge Functions) |
 | **Bug duplicates QCM** | Qualité produit | Corrigé en V1 (refacto format) |
-| **Pas de validation input** | Risque crash | 🔄 À corriger en priorité |
+| **Pas de validation input** | Risque crash | À corriger en priorité |
 
 ### Règle des 20%
 
@@ -431,7 +428,7 @@ Epic: Analyse de Leçon (10 jours)
    - Difficile de mesurer rétention/engagement précisément
    - Mixpanel/Amplitude à ajouter en V2
 
-### 🎯 Actions pour V2
+### Actions pour V2
 
 - [ ] Ajouter tests E2E (Playwright)
 - [ ] Intégrer Sentry (error tracking)
