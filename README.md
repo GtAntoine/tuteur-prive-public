@@ -121,7 +121,7 @@ Les documents détaillés se trouvent dans le dossier [`docs/`](./docs).
 | **Innovation clé** | IA souveraine française | Pipeline image → leçon → exercices unique |
 | **Différenciation** | IA "qui explique" | IA "qui entraîne" |
 
-**Conclusion PO :** TuteurPrivé occupe une niche plus profonde, plus différenciante, plus pédagogique. L'application ne remplace pas le professeur mais augmente l'efficacité de l'apprentissage autonome.
+**Conclusion :** TuteurPrivé occupe une niche plus profonde, plus différenciante, plus pédagogique. L'application ne remplace pas le professeur mais augmente l'efficacité de l'apprentissage autonome.
 
 ---
 
@@ -137,38 +137,3 @@ Les documents détaillés se trouvent dans le dossier [`docs/`](./docs).
 - **Beta tester principal :** Nièce de l'auteur (utilisatrice quotidienne)
 - **Feedback :** "Très contente" - utilisation régulière et naturelle
 - **Taux d'adoption :** Passage d'un usage ponctuel à un usage systématique
-
----
-
-## 🎯 Positionnement pour un Recruteur
-
-Ce portfolio démontre :
-
-### Compétences
-- ✅ **Vision produit** : définition claire du problème et de la solution
-- ✅ **Analyse de marché** : comparaison concurrentielle et positionnement
-- ✅ **Priorisation** : backlog structuré avec méthode MoSCoW
-- ✅ **Roadmap** : découpage en releases avec objectifs mesurables
-- ✅ **Arbitrages** : décisions argumentées (ex: sécurité API, token system)
-- ✅ **KPIs** : définition d'indicateurs de succès pertinents
-
-### Compétences Transverses
-- ✅ **Double casquette** : capacité à parler produit ET technique
-- ✅ **User-centric** : validation continue avec utilisateurs réels
-- ✅ **Sécurité** : prise en compte des enjeux de sécurité dans les décisions produit
-- ✅ **Innovation** : pipeline IA unique sur le marché éducatif
-
----
-
-
-## Contact
-
-**Antoine Goethals**
-Product Owner | Développeur Full-Stack
-
-- LinkedIn: [linkedin.com/in/antoinegoethals](https://www.linkedin.com/in/antoinegoethals/)
-- Email: antoine.gt@orange.fr
-
-Passionné par l'intersection entre IA et éducation
-
----
