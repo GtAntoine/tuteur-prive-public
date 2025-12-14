@@ -115,7 +115,7 @@ Les documents détaillés se trouvent dans le dossier [`docs/`](./docs).
 | **Source du contenu** | Questions écrites par l'élève | Photo d'un cours réel (extraction automatique) |
 | **Objectif pédagogique** | Expliquer un concept | Faire travailler l'élève sur ses propres leçons |
 | **Mode d'entraînement** | Quiz générés à la volée | QCM & exercices basés sur la photo du cahier |
-| **Correction d'exercices** | ❌ Non | ✅ Correction via photo |
+| **Correction d'exercices** | ❌ Non | ✅ Guidage des exercices et aide à la correction par photo |
 | **Adaptation au niveau** | ✅ Niveau / âge | ✅ Niveau + contenu spécifique du cours |
 | **Type d'IA** | Prof virtuel, réexplication | Assistant d'apprentissage actif |
 | **Innovation clé** | IA souveraine française | Pipeline image → leçon → exercices unique |
