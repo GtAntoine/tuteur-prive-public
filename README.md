@@ -189,17 +189,13 @@ La première version proposait une approche structurée en 5 étapes générique
 
 **Après** (spécifique et contextualisé) :
 ```
-Étape 1: "Pour l'exercice A ($7 + 4 \times 8$), commence par identifier
-les opérations présentes : une addition et une multiplication."
+Étape 1: "Pour l'exercice A (7 + 4 × 8), commence par identifier les opérations présentes : une addition et une multiplication."
 
-Étape 2: "Dans l'expression $7 + 4 \times 8$, quelle opération dois-tu
-calculer en premier selon la règle de priorité ?"
+Étape 2: "Dans l'expression 7 + 4 × 8, quelle opération dois-tu calculer en premier selon la règle de priorité ?"
 
-Étape 3: "Calcule d'abord $4 \times 8$ et écris le résultat intermédiaire.
-Puis remplace dans l'expression initiale."
+Étape 3: "Calcule d'abord 4 × 8 et écris le résultat intermédiaire. Puis remplace dans l'expression initiale."
 
-Indice: "Dans l'exercice B ($3 \times 11 - 7 \times 4$), combien y a-t-il
-de multiplications à calculer avant de faire la soustraction ?"
+Indice: "Dans l'exercice B (3 × 11 - 7 × 4), combien y a-t-il de multiplications à calculer avant de faire la soustraction ?"
 ```
 
 **Impact :** Passage d'un guide générique réutilisable à un accompagnement personnalisé référençant directement les exercices de l'élève.
