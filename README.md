@@ -127,7 +127,7 @@ Le système d'aide guidée de TuteurPrivé a considérablement évolué pour off
 #### Version 1 : Guide Méthodologique Simple
 
 <div align="center">
-  <img src="./public/images/aide générée.png" alt="Aide générée version 1" width="100%" />
+  <img src="./public/images/aide générée.png" alt="Aide générée version 1" width="80%" />
   <br/>
   <em>Première version : Guide méthodologique générique en 5 étapes (texte brut)</em>
 </div>
@@ -144,7 +144,7 @@ La première version proposait une approche structurée en 5 étapes générique
 #### Version 2 : Refonte Complète avec Guidage Contextualisé
 
 <div align="center">
-  <img src="./public/images/aide générée update.png" alt="Aide générée version 2 avec LaTeX" width="100%" />
+  <img src="./public/images/aide générée update.png" alt="Aide générée version 2 avec LaTeX" width="80%" />
   <br/>
   <em>Version améliorée : Guide spécifique aux exercices avec LaTeX et prompt restructuré</em>
 </div>
@@ -207,7 +207,7 @@ de multiplications à calculer avant de faire la soustraction ?"
 #### Comparaison avec Louxor.ai
 
 <div align="center">
-  <img src="./public/images/louxor-ai-aide.png" alt="Interface Louxor.ai" width="100%" />
+  <img src="./public/images/louxor-ai-aide.png" alt="Interface Louxor.ai" width="80%" />
   <br/>
   <em>Louxor.ai : Résolution complète avec tous les calculs détaillés</em>
 </div>
