@@ -115,7 +115,7 @@ Les documents détaillés se trouvent dans le dossier [`docs/`](./docs).
 TuteurPrivé peut analyser des exercices de mathématiques et générer une aide guidée pas-à-pas sans donner les réponses. Voici un exemple réel d'exercice sur les priorités opératoires avec 3 situations progressives :
 
 <div align="center">
-  <img src="./public/images/exercices-priorites-operatoires-1.png" alt="Exercice de priorités opératoires" width="60%" />
+  <img src="./public/images/exercices-priorites-operatoires-1.png" alt="Exercice de priorités opératoires" width="50%" />
   <br/>
   <em>Exercice original : Calculs d'expressions avec étapes intermédiaires</em>
 </div>
@@ -127,7 +127,7 @@ Le système d'aide guidée de TuteurPrivé a considérablement évolué pour off
 #### Version 1 : Guide Méthodologique Simple
 
 <div align="center">
-  <img src="./public/images/aide générée.png" alt="Aide générée version 1" width="100%" />
+  <img src="./public/images/aide générée.png" alt="Aide générée version 1" width="80%" />
   <br/>
   <em>Première version : Guide méthodologique générique en 5 étapes (texte brut)</em>
 </div>
@@ -144,7 +144,7 @@ La première version proposait une approche structurée en 5 étapes générique
 #### Version 2 : Refonte Complète avec Guidage Contextualisé
 
 <div align="center">
-  <img src="./public/images/aide générée update.png" alt="Aide générée version 2 avec LaTeX" width="100%" />
+  <img src="./public/images/aide générée update.png" alt="Aide générée version 2 avec LaTeX" width="80%" />
   <br/>
   <em>Version améliorée : Guide spécifique aux exercices avec LaTeX et prompt restructuré</em>
 </div>
@@ -203,7 +203,7 @@ Indice: "Dans l'exercice B (3 × 11 - 7 × 4), combien y a-t-il de multiplicatio
 #### Comparaison avec Louxor.ai
 
 <div align="center">
-  <img src="./public/images/louxor-ai-aide.png" alt="Interface Louxor.ai" width="100%" />
+  <img src="./public/images/louxor-ai-aide.png" alt="Interface Louxor.ai" width="80%" />
   <br/>
   <em>Louxor.ai : Résolution complète avec tous les calculs détaillés</em>
 </div>
