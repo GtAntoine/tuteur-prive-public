@@ -115,7 +115,7 @@ Les documents détaillés se trouvent dans le dossier [`docs/`](./docs).
 TuteurPrivé peut analyser des exercices de mathématiques et générer une aide guidée pas-à-pas sans donner les réponses. Voici un exemple réel d'exercice sur les priorités opératoires avec 3 situations progressives :
 
 <div align="center">
-  <img src="./public/images/exercices-priorites-operatoires-1.png" alt="Exercice de priorités opératoires" width="60%" />
+  <img src="./public/images/exercices-priorites-operatoires-1.png" alt="Exercice de priorités opératoires" width="50%" />
   <br/>
   <em>Exercice original : Calculs d'expressions avec étapes intermédiaires</em>
 </div>
