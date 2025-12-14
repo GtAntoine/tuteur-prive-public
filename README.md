@@ -108,6 +108,123 @@ Les documents détaillés se trouvent dans le dossier [`docs/`](./docs).
 
 ---
 
+## Exemple Concret : Système d'Aide Guidée
+
+### L'exercice : Priorités Opératoires
+
+TuteurPrivé peut analyser des exercices de mathématiques et générer une aide guidée pas-à-pas sans donner les réponses. Voici un exemple réel d'exercice sur les priorités opératoires avec 3 situations progressives :
+
+<div align="center">
+  <img src="./public/images/exercices-priorites-operatoires-1.png" alt="Exercice de priorités opératoires" width="60%" />
+  <br/>
+  <em>Exercice original : Calculs d'expressions avec étapes intermédiaires</em>
+</div>
+
+### Évolution du Système d'Aide Guidée
+
+Le système d'aide guidée de TuteurPrivé a considérablement évolué pour offrir une expérience pédagogique optimale :
+
+#### Version 1 : Guide Méthodologique Simple
+
+<div align="center">
+  <img src="./public/images/aide générée.png" alt="Aide générée version 1" width="100%" />
+  <br/>
+  <em>Première version : Guide méthodologique générique en 5 étapes (texte brut)</em>
+</div>
+
+La première version proposait une approche structurée en 5 étapes génériques :
+1. Identifier les opérations prioritaires (multiplications et divisions)
+2. Effectuer les multiplications/divisions une par une
+3. Faire les additions/soustractions de gauche à droite
+4. Gérer l'alignement des décimales
+5. Vérifier l'ordre des opérations et les résultats
+
+**Limite** : Méthodologie trop généraliste, non adaptée aux exercices spécifiques fournis par l'élève.
+
+#### Version 2 : Refonte Complète avec Guidage Contextualisé
+
+<div align="center">
+  <img src="./public/images/aide générée update.png" alt="Aide générée version 2 avec LaTeX" width="100%" />
+  <br/>
+  <em>Version améliorée : Guide spécifique aux exercices avec LaTeX et prompt restructuré</em>
+</div>
+
+**Améliorations majeures du prompt d'aide guidée :**
+
+1. **Rendu mathématique professionnel avec LaTeX/KaTeX**
+   - Expressions inline : `$7 + 4 \times 8$`, `$3 \times 11 - 7 \times 4$`
+   - Fractions : `$\frac{3}{4}$`, `$\frac{132 - 11 \times 10}{x}$`
+   - Expressions complexes avec indices et exposants
+   - Meilleure lisibilité et rendu professionnel
+
+2. **7 Règles obligatoires pour un guidage efficace**
+   - Analyser UNIQUEMENT les exercices fournis dans les images
+   - Référencer TOUJOURS les exercices par leur nom/numéro (ex: "exercice A", "situation 1")
+   - Fournir des exemples CONCRETS tirés des exercices donnés
+   - NE JAMAIS donner les réponses finales, mais guider la réflexion
+   - Utiliser LaTeX pour toutes les expressions mathématiques
+   - Adapter le ton et la complexité au niveau scolaire
+   - Être SPÉCIFIQUE et PRÉCIS, jamais généraliste
+
+3. **Étapes guidées contextualisées**
+   - Chaque étape fait référence aux exercices spécifiques de l'élève
+   - Indices sous forme de questions pour faire réfléchir
+   - Exemples tirés directement des données fournies
+   - Format JSON structuré avec anti-placeholders
+
+4. **Précision pédagogique accrue**
+   - Référence explicite aux numéros d'exercices (A, B, C, etc.)
+   - Utilisation des valeurs exactes de l'énoncé ($7 + 4 \times 8$, pas "une addition et une multiplication")
+   - Indices orientés vers des éléments concrets (nombre d'opérations, valeurs, etc.)
+   - Questions stimulant le raisonnement plutôt qu'affirmations
+
+**Exemple de transformation :**
+
+**Avant** (générique) :
+```
+Étape 1: "Lis l'expression et repère les opérations à effectuer."
+Étape 2: "Effectue les multiplications et divisions une par une."
+Étape 3: "Fais les additions et soustractions de gauche à droite."
+```
+
+**Après** (spécifique et contextualisé) :
+```
+Étape 1: "Pour l'exercice A ($7 + 4 \times 8$), commence par identifier
+les opérations présentes : une addition et une multiplication."
+
+Étape 2: "Dans l'expression $7 + 4 \times 8$, quelle opération dois-tu
+calculer en premier selon la règle de priorité ?"
+
+Étape 3: "Calcule d'abord $4 \times 8$ et écris le résultat intermédiaire.
+Puis remplace dans l'expression initiale."
+
+Indice: "Dans l'exercice B ($3 \times 11 - 7 \times 4$), combien y a-t-il
+de multiplications à calculer avant de faire la soustraction ?"
+```
+
+**Impact :** Passage d'un guide générique réutilisable à un accompagnement personnalisé référençant directement les exercices de l'élève.
+
+#### Comparaison avec Louxor.ai
+
+<div align="center">
+  <img src="./public/images/louxor-ai-aide.png" alt="Interface Louxor.ai" width="100%" />
+  <br/>
+  <em>Louxor.ai : Résolution complète avec tous les calculs détaillés</em>
+</div>
+
+**Différences d'approche pédagogique :**
+
+| Critère | Louxor.ai | TuteurPrivé |
+|---------|-----------|-------------|
+| **Méthode** | Résout entièrement l'exercice | Guide sans donner la réponse finale |
+| **Détails** | Tous les calculs intermédiaires affichés | Questions et indices pour réfléchir |
+| **Objectif** | Comprendre la solution | Développer l'autonomie |
+| **Rôle** | Professeur qui explique | Tuteur qui accompagne |
+
+**Avantage TuteurPrivé :** L'élève reste actif dans la résolution, développe son raisonnement et apprend à réfléchir plutôt qu'à recopier une solution toute faite.
+
+---
+
 ## 🆚 Positionnement Marché vs [Louxor.ai](https://louxor.ai/)
 
 | Critère | Louxor.ai | TuteurPrivé |
