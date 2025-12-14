@@ -177,7 +177,7 @@ TuteurPrivé est une application qui permet de **transformer n'importe quelle le
 
 ## 5. Objectifs par Version
 
-### V1 - App Élève : Fondations (Actuel)
+### V1 - App Élève : Fondations
 
 **Objectif :** Valider que le pipeline "photo → analyse → exercices" fonctionne et apporte de la valeur.
 
@@ -199,54 +199,58 @@ TuteurPrivé est une application qui permet de **transformer n'importe quelle le
 
 ---
 
-### V2 - Progression & Engagement (En cours)
+### V2 - Mode Communauté
 
-**Objectif :** Augmenter la rétention en ajoutant des mécaniques d'engagement et de suivi de progression.
+**Objectif :** Créer une communauté d'apprentissage où les élèves partagent leurs leçons et s'entraident via une marketplace de contenus.
 
 **Scope prévu :**
-- Dashboard de progression par matière
-- Système de points et badges
-- Révisions espacées (algorithme de répétition)
-- Statistiques détaillées par élève
-- Objectifs personnalisables
-- Rappels de révision
-- Export de progression (PDF pour parents)
+- Partage de leçons entre utilisateurs
+- Marketplace de leçons communautaires (exploration, filtres, recherche)
+- Système de points et badges communautaires
+- Classement des meilleurs contributeurs
+- Statistiques de contribution (vues, utilisations, likes)
+- Profil public pour chaque utilisateur
 
 **Hypothèse à tester :**
-> Si l'élève voit sa progression et reçoit des rappels, il utilisera l'app de manière plus régulière.
+> Si les élèves peuvent partager et découvrir des leçons créées par leurs pairs, la valeur perçue de l'app augmente et l'engagement devient plus fort.
 
 ---
 
-### V3 - Mode Professeur (Futur)
+### V3 - Mode Professeur
 
 **Objectif :** Ouvrir un nouveau segment de marché (B2B2C) en proposant un outil pour professeurs particuliers.
 
-**Scope imaginé :**
+**Scope prévu :**
 - Dashboard professeur
 - Gestion de plusieurs élèves
-- Création de leçons personnalisées
+- Création de leçons personnalisées et assignment aux élèves
 - Suivi de progression par élève
 - Communication prof ↔ élève
 - Rapport automatique pour parents
-- Partage de ressources entre profs
+- Bibliothèque de ressources partagée entre profs
 
 **Modèle économique :**
-- Freemium pour élèves (avec limites)
-- Abonnement pro pour professeurs (15-30€/mois)
+- Freemium pour élèves (tokens)
+- Abonnement Pro pour professeurs : 19.99€/mois (jusqu'à 10 élèves)
+- Abonnement Premium : 39.99€/mois (élèves illimités + fonctionnalités avancées)
 
 ---
 
-### V4 - Intelligence & Automatisation (Vision)
+### V4 - Mode Professeur en Temps Réel avec Vision Vidéo
 
-**Objectif :** Utiliser l'IA pour prédire les difficultés et adapter automatiquement le contenu.
+**Objectif :** Révolutionner l'accompagnement pédagogique en permettant aux professeurs de donner des cours en temps réel avec analyse vidéo continue.
 
-**Scope imaginé :**
-- Adaptation automatique du niveau de difficulté
-- Détection des lacunes (chapitres non maîtrisés)
-- Génération automatique de parcours de révision
-- Analytics avancées (pour écoles ?)
-- Marketplace de leçons communautaires
-- Mode compétition / classements
+**Scope prévu :**
+- Sessions de cours vidéo en temps réel (visioconférence WebRTC)
+- Analyse vidéo en temps réel avec GPT-4 Vision (OCR live, détection gestes, transcription)
+- Tableau blanc collaboratif
+- Enregistrement et replay intelligent des sessions
+- Dashboard analytique avancé (temps d'attention, concepts travaillés, taux de compréhension)
+- Mode "Assistant IA" pour le professeur (suggestions d'exercices, génération de QCM à la volée, détection de confusion)
+
+**Modèle économique :**
+- Plan Pro : 29.99€/mois (jusqu'à 10 élèves, 20h de sessions vidéo/mois)
+- Plan Premium : 59.99€/mois (sessions illimitées, analytics avancées, Assistant IA)
 
 ---
 

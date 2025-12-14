@@ -3,18 +3,16 @@
 ## Vue Globale Stratégique
 
 ```
-2025 ────────────── 2026 ────────────── 2027 ───────────▶
-  │                   │                   │
-  V1                  V2                  V3
-  Validation         Engagement          Expansion
-  │                   │                   │
-  └─ Product-Market   └─ Rétention       └─ B2B2C
-     Fit                 Gamification        Mode Prof
+V1                  V2                  V3                  V4
+Validation         Communauté          Expansion           Temps Réel
+│                   │                   │                   │
+└─ Product-Market   └─ Marketplace      └─ B2B2C            └─ Vision Vidéo
+   Fit                 Communautaire       Mode Prof           Live
 ```
 
 ---
 
-## Release 1 - Fondations & Validation (Shipped - Décembre 2024)
+## Release 1 - Fondations & Validation (Shipped)
 
 ### Objectif Stratégique
 > **Valider que le pipeline "photo → analyse → exercices" apporte une vraie valeur pédagogique.**
@@ -73,146 +71,115 @@
 
 ---
 
-## Release 2 - Engagement & Rétention (En cours - Q1-Q2 2025)
+## Release 2 - Mode Communauté
 
 ### Objectif Stratégique
-> **Transformer les utilisateurs occasionnels en utilisateurs réguliers via la gamification et le suivi de progression.**
+> **Créer une communauté d'apprentissage où les élèves partagent leurs leçons et s'entraident via une marketplace de contenus.**
 
 ### Hypothèses à Tester
-1. Un système de progression visible augmente la motivation
-2. Les rappels de révision augmentent l'usage régulier
-3. La gamification (badges, streaks) fonctionne pour les 10-17 ans
-4. Les parents payent plus s'ils voient la progression clairement
+1. Les élèves sont motivés par le partage de leurs leçons avec d'autres
+2. Une marketplace de leçons communautaires augmente la valeur perçue de l'app
+3. La gamification communautaire (points pour contributions) renforce l'engagement
+4. Les leçons partagées par les pairs sont aussi pertinentes que celles créées individuellement
 
 ### Features Prévues
 
-#### Dashboard de Progression
+#### Partage de Leçons
+
 **User Story :**
-> En tant qu'élève, je veux voir un dashboard de ma progression par matière afin de visualiser mes forces et faiblesses.
+> En tant qu'élève, je veux partager mes leçons analysées avec la communauté afin d'aider d'autres élèves.
 
 **Scope :**
-- [ ] Graphiques de progression par matière (% de réussite QCM)
-- [ ] Historique d'évolution (courbe sur 30 jours)
-- [ ] Identification des chapitres non maîtrisés
-- [ ] Suggestions de révision ciblées
+- [ ] Bouton "Partager avec la communauté" sur chaque leçon
+- [ ] Choix de visibilité : publique ou privée
+- [ ] Métadonnées automatiques : matière, niveau, classe
+- [ ] Modération automatique des contenus partagés
 
 **Priorité :** Must (V2)
-**Complexité :** M (5-8 jours)
-
----
-
-#### Gamification
-
-**User Story :**
-> En tant qu'élève, je veux gagner des badges et maintenir un streak afin de rester motivé.
-
-**Scope :**
-- [ ] **Système de points** : +10 pts par leçon complétée, +5 pts par QCM parfait
-- [ ] **Badges** : "Première leçon", "10 leçons", "Perfectionniste" (10 QCM parfaits), etc.
-- [ ] **Streaks** : jours consécutifs d'utilisation (avec rappels)
-- [ ] **Niveaux** : Bronze → Argent → Or → Platine
-
-**Priorité :** Should (V2)
-**Complexité :** L (8-12 jours)
-
-**Risque PO :** Gamification mal conçue peut dévier l'objectif pédagogique → focus sur badges liés à la maîtrise, pas juste à l'usage.
-
----
-
-#### Révisions Espacées (Spaced Repetition)
-
-**User Story :**
-> En tant qu'élève, je veux être rappelé de réviser les leçons anciennes afin de consolider ma mémoire long terme.
-
-**Scope :**
-- [ ] Algorithme de répétition espacée (inspiré de Anki)
-- [ ] Calcul automatique du "prochain review" par leçon
-- [ ] Notifications/emails de rappel
-- [ ] Mode "Révision du jour" : leçons à revoir
-
-**Priorité :** Should (V2)
-**Complexité :** L (10-15 jours)
-
-**Inspiration :** Duolingo, Anki, mais adapté au contenu scolaire.
-
----
-
-#### PWA (Progressive Web App)
-
-**User Story :**
-> En tant qu'élève, je veux installer l'app sur mon téléphone afin d'y accéder rapidement.
-
-**Scope :**
-- [ ] Manifest.json configuré
-- [ ] Service worker pour cache offline
-- [ ] Icône d'app personnalisée
-- [ ] Splash screen
-
-**Priorité :** Could (V2)
-**Complexité :** S (2-3 jours)
-
-**Décision PO :** Seulement si les métriques montrent un usage mobile > 60%.
-
----
-
-#### Export de Progression (PDF pour Parents)
-
-**User Story :**
-> En tant que parent, je veux exporter un rapport PDF de progression afin de le montrer aux professeurs.
-
-**Scope :**
-- [ ] Bouton "Exporter" dans le profil
-- [ ] PDF généré avec :
-  - Graphiques de progression par matière
-  - Liste des leçons travaillées
-  - Scores moyens QCM
-  - Points forts / faibles identifiés
-- [ ] Branding TuteurPrivé
-
-**Priorité :** Should (V2)
 **Complexité :** M (5-7 jours)
 
 ---
 
-#### Optimisation Images
+#### Marketplace de Leçons Communautaires
 
 **User Story :**
-> En tant que système, je veux compresser les images uploadées afin de réduire les coûts Supabase Storage.
+> En tant qu'élève, je veux explorer des leçons partagées par d'autres élèves afin de réviser de nouveaux chapitres ou renforcer ma compréhension.
 
 **Scope :**
-- [ ] Compression client-side avant upload (via canvas API)
-- [ ] Redimensionnement max 1920px
-- [ ] Format WebP pour stockage
-- [ ] Réduction estimée : -70% taille
+- [ ] Page "Explorer" avec catalogue de leçons publiques
+- [ ] Filtres : matière, niveau, classe, popularité
+- [ ] Recherche par mots-clés
+- [ ] Aperçu de la leçon avant utilisation
+- [ ] Import en 1 clic dans son historique personnel
+- [ ] Système de "likes" ou "merci" pour valoriser les contributions
+
+**Priorité :** Must (V2)
+**Complexité :** L (10-12 jours)
+
+---
+
+#### Gamification Communautaire
+
+**User Story :**
+> En tant qu'élève, je veux gagner des points en partageant des leçons utiles afin d'être reconnu dans la communauté.
+
+**Scope :**
+- [ ] **Système de points** :
+  - +20 pts par leçon partagée
+  - +5 pts par "like" reçu sur une leçon partagée
+  - +10 pts pour utilisation d'une leçon communautaire
+- [ ] **Badges communautaires** :
+  - "Premier partage"
+  - "10 leçons partagées"
+  - "100 likes reçus"
+  - "Super contributeur"
+- [ ] **Classement communautaire** : top contributeurs du mois
+- [ ] **Profil public** : nombre de leçons partagées, likes reçus, niveau
 
 **Priorité :** Should (V2)
-**Complexité :** S (2-3 jours)
+**Complexité :** L (8-12 jours)
 
-**ROI :** Économie ~50$/mois en coûts de stockage à 1000 utilisateurs actifs.
+**Risque PO :** La compétition peut décourager certains élèves → mettre l'accent sur la contribution plutôt que le classement.
+
+---
+
+#### Statistiques de Contribution
+
+**User Story :**
+> En tant qu'élève contributeur, je veux voir l'impact de mes partages afin de comprendre ce qui aide le plus la communauté.
+
+**Scope :**
+- [ ] Dashboard personnel des contributions
+- [ ] Nombre de vues par leçon partagée
+- [ ] Nombre d'utilisations par leçon
+- [ ] Likes et retours reçus
+- [ ] Matières les plus consultées
+
+**Priorité :** Could (V2)
+**Complexité :** M (5-7 jours)
 
 ---
 
 ### KPIs Ciblés (V2)
-- **Rétention J7** : 40% (vs 25% en V1)
-- **Rétention J30** : 20% (vs 10% en V1)
-- **Fréquence d'usage** : 3x/semaine (vs 1.5x/semaine en V1)
-- **Conversion freemium → paid** : 10-15%
-- **Taux d'activation des notifications** : 50%
+- **Leçons partagées** : 30% des leçons créées sont partagées publiquement
+- **Utilisations communautaires** : 50% des utilisateurs actifs utilisent au moins 1 leçon communautaire/mois
+- **Rétention J30** : 25% (vs 10% en V1)
+- **Engagement communautaire** : 20% des utilisateurs actifs contribuent régulièrement
+- **NPS** : ≥ 40
 
 ### Timeline Estimée
-**Q1 2025 (Jan-Mar) :**
-- Dashboard progression
-- Gamification basique (points, badges)
-- PWA
+**Phase 1 :**
+- Partage de leçons
+- Marketplace de base (exploration + import)
 
-**Q2 2025 (Apr-Jun) :**
-- Révisions espacées
-- Export PDF
-- Optimisations techniques
+**Phase 2 :**
+- Gamification communautaire
+- Statistiques de contribution
+- Optimisations UX basées sur le feedback
 
 ---
 
-## Release 3 - Expansion B2B2C : Mode Professeur  Q3-Q4 2025)
+## Release 3 - Expansion B2B2C : Mode Professeur
 
 ### Objectif Stratégique
 > **Ouvrir un nouveau segment de marché en proposant un outil pour professeurs particuliers, tout en augmentant la valeur pour les élèves.**
@@ -350,75 +317,177 @@
 - **NPS profs** : ≥ 40
 
 ### Timeline Estimée
-**Q3 2025 (Jul-Sep) :**
+**Phase 1 :**
 - Dashboard prof
 - Création leçons + assignment
 
-**Q4 2025 (Oct-Dec) :**
+**Phase 2 :**
 - Messagerie prof-élève
 - Rapports automatiques
 - Bibliothèque ressources (MVP)
 
 ---
 
-## Release 4 - Intelligence & Scale (2026)
+## Release 4 - Mode Professeur en Temps Réel avec Vision Vidéo
 
 ### Objectif Stratégique
-> **Utiliser l'IA pour prédire les difficultés et automatiser l'adaptation du contenu.**
+> **Révolutionner l'accompagnement pédagogique en permettant aux professeurs de donner des cours en temps réel avec analyse vidéo continue.**
 
-### Features Imaginées
+### Hypothèses à Tester
+1. Les professeurs sont prêts à payer pour un système d'analyse vidéo en temps réel
+2. L'analyse vidéo (vs image statique) permet un feedback plus riche et contextuel
+3. Le mode temps réel améliore significativement l'engagement élève-professeur
+4. Les sessions vidéo enregistrées deviennent des ressources pédagogiques réutilisables
 
-#### Adaptation Automatique de Difficulté
+### Features Prévues
 
-**Concept :**
-L'IA analyse les résultats passés et ajuste automatiquement la difficulté des prochaines questions.
+#### Sessions de Cours Vidéo en Temps Réel
 
-**Exemples :**
-- Élève réussit 10 QCM d'affilée → questions plus difficiles
-- Élève échoue 3 fois → questions plus simples + rappels de base
+**User Story :**
+> En tant que professeur, je veux donner un cours en visioconférence avec analyse IA en temps réel afin d'enrichir l'expérience d'apprentissage.
 
-**Priorité :** Innovation (V4)
+**Scope :**
+- [ ] Intégration visioconférence (WebRTC)
+- [ ] Streaming vidéo bidirectionnel (prof ↔ élève)
+- [ ] Partage d'écran avec annotations
+- [ ] Tableau blanc collaboratif
+- [ ] Chat intégré
 
----
+**Priorité :** Must (V4)
+**Complexité :** XL (20-30 jours)
 
-#### Détection de Lacunes
-
-**Concept :**
-L'IA détecte les chapitres non maîtrisés et propose des parcours de remise à niveau.
-
-**Exemple :**
-> "Tu as des difficultés en fractions. Voici 3 leçons pour progresser : CM1 > CM2 > 6ème."
-
-**Priorité :** Innovation (V4)
-
----
-
-#### Mode Compétition / Classements
-
-**Concept :**
-Leaderboards par classe/école pour motiver via la compétition saine.
-
-**Priorité :** Nice-to-have (V4)
-**Risque :** Peut démotiver les élèves faibles → à concevoir prudemment.
+**Stack technique potentiel :** Daily.co, Agora, ou solution custom WebRTC
 
 ---
 
-#### Marketplace de Leçons Communautaires
+#### Analyse Vidéo en Temps Réel (Vision API)
 
-**Concept :**
-Les élèves peuvent partager leurs meilleures leçons publiquement et gagner des tokens.
+**User Story :**
+> En tant que professeur, je veux que l'IA analyse en temps réel ce que l'élève montre à sa caméra afin de fournir un feedback instantané.
 
-**Priorité :** Nice-to-have (V4)
+**Scope :**
+- [ ] **Capture vidéo continue** : analyse frame par frame
+- [ ] **Détection automatique de contenu** :
+  - Détection de texte manuscrit (OCR en temps réel)
+  - Reconnaissance d'équations mathématiques
+  - Identification de graphiques/schémas
+  - Détection de gestes (ex: élève lève la main)
+- [ ] **Transcription en direct** : speech-to-text des explications orales
+- [ ] **Suggestions IA contextuelles** : l'IA propose des explications ou exercices basés sur ce qu'elle voit
+
+**Priorité :** Must (V4)
+**Complexité :** XXL (30-40 jours)
+
+**Technologies :** GPT-4 Vision (mode streaming si disponible), Whisper API, Computer Vision custom
 
 ---
 
-#### Analytics Avancées (Écoles ?)
+#### Enregistrement et Replay Intelligent
 
-**Concept :**
-Dashboard pour établissements scolaires (suivi de cohortes d'élèves).
+**User Story :**
+> En tant qu'élève, je veux revoir une session de cours enregistrée avec les annotations et suggestions IA afin de réviser efficacement.
 
-**Modèle :** B2B (écoles payent pour leurs élèves).
-**Priorité :** Exploratoire (V4+)
+**Scope :**
+- [ ] Enregistrement automatique des sessions (vidéo + audio + transcription)
+- [ ] Timeline interactive avec :
+  - Moments clés identifiés par l'IA
+  - Questions posées
+  - Exercices résolus
+  - Concepts abordés
+- [ ] Export en leçon structurée (comme en V1)
+- [ ] Partage sélectif avec d'autres élèves (mode communauté V2)
+
+**Priorité :** Should (V4)
+**Complexité :** L (15-20 jours)
+
+---
+
+#### Dashboard Analytique Avancé (Professeur)
+
+**User Story :**
+> En tant que professeur, je veux voir des analytics détaillées de mes sessions en temps réel afin d'améliorer ma pédagogie.
+
+**Scope :**
+- [ ] **Métriques par session** :
+  - Temps d'attention élève (détection visuelle)
+  - Nombre de questions posées
+  - Concepts travaillés
+  - Taux de compréhension estimé (via quizz intégrés)
+- [ ] **Analyse comparative** : progression élève session après session
+- [ ] **Recommandations IA** : "L'élève semble avoir du mal avec X, proposer un exercice sur Y"
+
+**Priorité :** Should (V4)
+**Complexité :** L (12-15 jours)
+
+---
+
+#### Mode "Assistant IA" pour le Professeur
+
+**User Story :**
+> En tant que professeur, je veux que l'IA m'assiste pendant le cours en temps réel afin de me concentrer sur la pédagogie plutôt que sur la logistique.
+
+**Scope :**
+- [ ] **Suggestions d'exercices** : l'IA propose des exercices adaptés au niveau détecté
+- [ ] **Génération de QCM à la volée** : basé sur ce qui vient d'être expliqué
+- [ ] **Détection de confusion** : l'IA alerte le prof si l'élève semble perdu
+- [ ] **Prise de notes automatique** : résumé structuré de la session
+
+**Priorité :** Could (V4)
+**Complexité :** XL (20-25 jours)
+
+**Inspiration :** GitHub Copilot, mais pour l'enseignement
+
+---
+
+### Modèle Économique V4
+
+#### Pricing Professeur (mis à jour)
+- **Plan Pro** : 29.99€/mois
+  - Jusqu'à 10 élèves
+  - 20h de sessions vidéo/mois
+  - Enregistrements illimités
+  - Analyse vidéo temps réel
+
+- **Plan Premium** : 59.99€/mois
+  - Élèves illimités
+  - Sessions vidéo illimitées
+  - Analytics avancées
+  - Assistant IA activé
+  - White-label
+
+#### Coûts estimés
+- **GPT-4 Vision (streaming)** : ~0.10$/minute de vidéo analysée
+- **Stockage vidéo** : ~0.02$/GB/mois (Supabase Storage ou AWS S3)
+- **Bande passante WebRTC** : ~0.05$/GB
+
+**Calcul par session :**
+- Session 1h = 60 min × 0.10$ = 6$ en coûts IA
+- Stockage 1h vidéo (720p) ≈ 1GB = 0.02$/mois
+- **Total : ~6.02$ par session**
+
+**Rentabilité :** Plan Pro à 29.99€/mois avec max 20h = ~5 sessions → limite à 30$ de coûts → marge serrée, modèle viable si usage réel < limite.
+
+---
+
+### KPIs Ciblés (V4)
+- **Sessions vidéo mensuelles** : 500 sessions/mois dans les 6 premiers mois
+- **Durée moyenne session** : 45-60 minutes
+- **NPS professeurs** : ≥ 50
+- **Taux d'utilisation analyse vidéo** : 80% des sessions utilisent la vision IA
+- **Conversion Plan Pro → Premium** : 20%
+
+### Timeline Estimée
+**Phase 1 :**
+- Infrastructure visioconférence
+- Analyse vidéo temps réel (MVP)
+
+**Phase 2 :**
+- Enregistrement et replay intelligent
+- Dashboard analytique avancé
+
+**Phase 3 :**
+- Mode Assistant IA
+- Optimisations performance et coûts
 
 ---
 
@@ -428,9 +497,9 @@ Dashboard pour établissements scolaires (suivi de cohortes d'élèves).
 
 ```
 V1 → Validation (Beta privée)
-V2 → Rétention (Beta publique)
+V2 → Communauté (Beta publique)
 V3 → Expansion (Launch officiel B2B2C)
-V4 → Scale (Lever de fonds ?)
+V4 → Innovation (Mode temps réel vidéo)
 ```
 
 ### Gestion du Risque
@@ -451,11 +520,11 @@ V4 → Scale (Lever de fonds ?)
 
 ## Synthèse Timeline
 
-| Release | Période | Focus | KPI Principal |
-|---------|---------|-------|---------------|
-| **V1** | Q4 2024 | Validation | NPS > 8 |
-| **V2** | Q1-Q2 2025 | Rétention | Rétention J30 > 20% |
-| **V3** | Q3-Q4 2025 | Expansion | 50 profs payants |
-| **V4** | 2026 | Intelligence | Scale to 10K users |
+| Release | Focus |
+|---------|-------|
+| **V1** | Validation |
+| **V2** | Communauté |
+| **V3** | Expansion |
+| **V4** | Temps Réel Vidéo |
 
 ---
