@@ -101,10 +101,10 @@ Les documents détaillés se trouvent dans le dossier [`docs/`](./docs).
 
 ### Ampleur du Projet
 
-- **15k lignes de code** dans `src/`
+- **16k lignes de code** dans `src/`
   - TypeScript (.ts) : 5k lignes
-  - TypeScript React (.tsx) : 10k lignes
-  - 200+ fichiers TS/TSX
+  - TypeScript React (.tsx) : 11k lignes
+  - 250 fichiers TS/TSX
 
 ---
 
