@@ -15,6 +15,7 @@
 ## 🔗 Liens Utiles
 
 - **Application Live :** [tuteurprive.com](https://tuteurprive.com)
+- **Application mobile :** iOS (iPhone et iPad) et Android, voir [L'application mobile (2026)](#-lapplication-mobile-2026)
 - **Exemples de Leçons Générées :**
   - [La démographie en France](https://tuteurprive.com/shared/97b9edc4-aab8-46f1-9c1f-e9dec2d4ad90/la-demographie-en-france)
   - [L'école sous la IIIe République](https://tuteurprive.com/shared/05c5fa54-7bb3-4396-842c-73f751d315eb/l-ecole-sous-la-iiie-republique)
@@ -74,6 +75,36 @@ Les documents détaillés se trouvent dans le dossier [`docs/`](./docs).
 
 ---
 
+## 📱 L'application mobile (2026)
+
+En 2026, j'ai repris TuteurPrivé en application native React Native (Expo), pour iPhone, iPad et Android (version 1.2.6).
+
+- **Analyse des leçons en streaming** : le contenu s'affiche au fur et à mesure, via des Supabase Edge Functions qui gardent la clé OpenAI côté serveur
+- **Du CP à la Terminale**, plus un niveau adulte
+- **Profils avec avatars**, onboarding, historique avec favoris, statistiques et partage des leçons
+- **QCM en cartes**, avec un système de combo pour les points
+- **Français et anglais**, retours haptiques désactivables, mise en page adaptée aux tablettes
+
+<div align="center">
+  <img src="./public/images/ios-accueil.jpg" alt="Accueil de l'application iOS" width="32%" />
+  <br/>
+  <em>Accueil de l'application iOS</em>
+</div>
+
+## 🎨 Refonte UX/UI : « Le Cahier Vivant »
+
+**Le diagnostic.** L'app était solide techniquement (streaming, haptics, animations), mais elle restait dans un registre de « clone de Duolingo » : boutons avec ombre, cartes plates, onglets classiques. Pour une app qui transforme des photos de leçons, il y avait mieux à faire.
+
+**Le concept.** Un cahier qui prend vie : l'élève photographie sa leçon, le cahier l'absorbe et la transforme en exercices interactifs.
+
+**Ce qui a changé :**
+- une palette plus chaude : fond ivoire façon papier, bleu encre et violet vif, corail pour les récompenses, turquoise pour les réussites ;
+- une couleur par matière, reprise dans l'historique des leçons ;
+- des animations Lottie pendant l'analyse et dans les QCM ;
+- un plan de refonte écran par écran, priorisé : thème, accueil, QCM, récapitulatif, streaming…
+
+---
+
 ## 🚀 Innovation Technique
 
 ### Pipeline IA Unique
@@ -93,6 +124,7 @@ Les documents détaillés se trouvent dans le dossier [`docs/`](./docs).
 ### Stack Technique
 
 - **Frontend:** React 18 + TypeScript + Vite + Tailwind CSS
+- **Mobile:** React Native + Expo (SDK 54), Supabase Edge Functions (Deno), streaming NDJSON, Lottie
 - **Backend:** Supabase (Auth, Database, Edge Functions, Storage)
 - **IA:** OpenAI GPT-5 Vision + Whisper (transcription vocale)
 - **State:** Zustand
