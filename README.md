@@ -15,7 +15,7 @@
 ## 🔗 Liens Utiles
 
 - **Application Live :** [tuteurprive.com](https://tuteurprive.com)
-- **Application mobile :** iOS (iPhone et iPad) et Android, voir [L'application mobile (2026)](#-lapplication-mobile-2026)
+- **Application mobile :** [App Store](https://apps.apple.com/fr/app/tuteurpriv%C3%A9/id6761138454) (iPhone et iPad), voir [L'application mobile (2026)](#-lapplication-mobile-2026)
 - **Exemples de Leçons Générées :**
   - [La démographie en France](https://tuteurprive.com/shared/97b9edc4-aab8-46f1-9c1f-e9dec2d4ad90/la-demographie-en-france)
   - [L'école sous la IIIe République](https://tuteurprive.com/shared/05c5fa54-7bb3-4396-842c-73f751d315eb/l-ecole-sous-la-iiie-republique)
@@ -77,7 +77,7 @@ Les documents détaillés se trouvent dans le dossier [`docs/`](./docs).
 
 ## 📱 L'application mobile (2026)
 
-En 2026, j'ai repris TuteurPrivé en application native React Native (Expo), pour iPhone, iPad et Android (version 1.2.6).
+En 2026, j'ai repris TuteurPrivé en application native React Native (Expo), publiée sur l'[App Store](https://apps.apple.com/fr/app/tuteurpriv%C3%A9/id6761138454) pour iPhone et iPad (version 1.2.6).
 
 - **Analyse des leçons en streaming** : le contenu s'affiche au fur et à mesure, via des Supabase Edge Functions qui gardent la clé OpenAI côté serveur
 - **Du CP à la Terminale**, plus un niveau adulte
